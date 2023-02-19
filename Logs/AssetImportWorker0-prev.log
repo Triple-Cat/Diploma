@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ru' Physical Memory: 16348 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16334 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+D:\Unity\2021.3.15f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Program Files (x86)/Diploma
+D:/DSTU_Project/Diploma
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56286
-Successfully changed project path to: D:/Program Files (x86)/Diploma
-D:/Program Files (x86)/Diploma
+59094
+Successfully changed project path to: D:/DSTU_Project/Diploma
+D:/DSTU_Project/Diploma
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,119 +47,127 @@ D:/Program Files (x86)/Diploma
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18408] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 3750653464 [EditorId] 3750653464 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H1KQE7O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1224] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3072377380 [EditorId] 3072377380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O5AMQF1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18408] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 3750653464 [EditorId] 3750653464 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H1KQE7O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1224] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3072377380 [EditorId] 3072377380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O5AMQF1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 105.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 125.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Diploma/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/DSTU_Project/Diploma/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
-    Vendor:   NVIDIA
-    VRAM:     11127 MB
-    Driver:   31.0.15.1694
+    Renderer: ASUS R9 280 Series (ID=0x679a)
+    Vendor:   ATI
+    VRAM:     3052 MB
+    Driver:   26.20.12028.2
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Mono path[0] = 'D:/Unity/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009076 seconds.
+Register platform support module: D:/Unity/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2021.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004960 seconds.
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 80.64 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 133.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
+- Completed reload, in  1.146 seconds
 Domain Reload Profiling:
-	ReloadAssembly (639ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (455ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (818ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (524ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
+				InitializePlatformSupportModulesInManaged (117ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003949 seconds.
+Registered in 0.008046 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\DSTU_Project\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\DSTU_Project\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.398 seconds
+- Completed reload, in  1.830 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1398ms)
-		BeginReloadAssembly (436ms)
+	ReloadAssembly (1832ms)
+		BeginReloadAssembly (298ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (331ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (1334ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (465ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (374ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (592ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3820.
-Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 3.229300 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.275500 ms MarkObjects: 2.544300 ms  DeleteObjects: 0.094700 ms)
+Unloading 3362 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3821.
+Memory consumption went from 115.7 MB to 115.5 MB.
+Total: 6.991000 ms (FindLiveObjects: 0.733800 ms CreateObjectMapping: 0.308200 ms MarkObjects: 5.700500 ms  DeleteObjects: 0.246600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,77 +175,589 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 40757.920817 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.044864 seconds 
+  Time since last request: 133461.794064 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(2d60a42a666efcf4ea9824c1b2b8a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(2d60a42a666efcf4ea9824c1b2b8a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f42dbfc0944dccf7ba80e19431a29e0') in 0.020754 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.649012 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(2c615d5863d3a9b4d9fcc2599a1adaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(2c615d5863d3a9b4d9fcc2599a1adaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b09103cb1662fe4bb09d9dc940662e') in 0.005211 seconds 
+  Time since last request: 9.034581 seconds.
+  path: Assets/Material
+  artifactKey: Guid(c4fb095371ac94846b428c4043a7520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(c4fb095371ac94846b428c4043a7520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd2d5035beb8c9da48066f288d7bc3b') in 0.009113 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.657599 seconds.
-  path: Assets/Scripts/DialogueSystem.cs
-  artifactKey: Guid(d665f60bf30cdc347b28fd31e98a9c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DialogueSystem.cs using Guid(d665f60bf30cdc347b28fd31e98a9c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5617ccf80cb1bbc8d60fb645e559e8ab') in 0.032976 seconds 
+  Time since last request: 8.469131 seconds.
+  path: Assets/3DModels
+  artifactKey: Guid(da2a2dad588211543bfd0f19d8676d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels using Guid(da2a2dad588211543bfd0f19d8676d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeb54c9696e4d030826d5d35245ce60') in 0.011131 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006446 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1174ms)
-		BeginReloadAssembly (188ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3357 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.3 KB). Loaded Objects now: 3824.
-Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 4.477300 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.196500 ms MarkObjects: 3.756300 ms  DeleteObjects: 0.177000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 37.432101 seconds.
+  path: Assets/3DModels/Дверь1.obj
+  artifactKey: Guid(c506b50072ad0e8419647e0656ad69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Дверь1.obj using Guid(c506b50072ad0e8419647e0656ad69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e04c97be6088a8f1f7540955ad9e0c') in 0.621326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3DModels/Дверь3.obj
+  artifactKey: Guid(b32b4c55c0073a841885ce2a72b983f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Дверь3.obj using Guid(b32b4c55c0073a841885ce2a72b983f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd910a91d807a461d4ab74fde96b4c7f6') in 0.043206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.937415 seconds.
+  path: Assets/3DModels/Пол деревяный.obj
+  artifactKey: Guid(0ba93f9e64f262643a090318c087759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Пол деревяный.obj using Guid(0ba93f9e64f262643a090318c087759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cf9fc50329654b270af9172591ff35') in 0.040757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.739847 seconds.
+  path: Assets/3DModels/Стена с узором.obj
+  artifactKey: Guid(c545a63f084034d4a9f4d2a145a1feae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Стена с узором.obj using Guid(c545a63f084034d4a9f4d2a145a1feae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3230b8ca4c3d78b7389ece96da9bdb2c') in 0.043357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.901250 seconds.
+  path: Assets/3DModels/Стена берюзовая (с дверью).obj
+  artifactKey: Guid(bac60d3ea115cfc4c80e211844ecd9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Стена берюзовая (с дверью).obj using Guid(bac60d3ea115cfc4c80e211844ecd9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ca1a3f5301e2fbaffa531f794d8435') in 0.050603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.809987 seconds.
+  path: Assets/3DModels/Стена берюзовая.obj
+  artifactKey: Guid(8a739cc043d4e9342a68ca3187df4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Стена берюзовая.obj using Guid(8a739cc043d4e9342a68ca3187df4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603e93959313a863622f8219dbd4442c') in 0.047086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.762922 seconds.
+  path: Assets/3DModels/Ceiling.obj
+  artifactKey: Guid(df4d3583ff3cf2e4abfb93eeb88393c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Ceiling.obj using Guid(df4d3583ff3cf2e4abfb93eeb88393c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e540c3d3b93c6597d66b78aae9b7c2') in 0.044672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.587204 seconds.
+  path: Assets/Texture/Дверь1вариант.png
+  artifactKey: Guid(d618135b16871d24e8f54c0c71de7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Дверь1вариант.png using Guid(d618135b16871d24e8f54c0c71de7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b544ddbfb1b041a379d79abc2c7a77c') in 0.053743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.551098 seconds.
+  path: Assets/Texture/Пол деревяный.png
+  artifactKey: Guid(5b0c2ee4b7fa1004a8d34e35558c983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Пол деревяный.png using Guid(5b0c2ee4b7fa1004a8d34e35558c983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd82310d2d9a2a4c14e9e302ce4f4d3c') in 0.020416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.654997 seconds.
+  path: Assets/Texture/Стена берюзовая.png
+  artifactKey: Guid(1273ecee741439e4a8991dc939f6f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Стена берюзовая.png using Guid(1273ecee741439e4a8991dc939f6f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8fabec994a8420063ff232df6c2627') in 0.017690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.261933 seconds.
+  path: Assets/Texture/Ceiling.png
+  artifactKey: Guid(8e10701c600b6b1499ff9a5d5b6451c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Ceiling.png using Guid(8e10701c600b6b1499ff9a5d5b6451c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba19967265e3734c0d61ddf65c58d51') in 0.016890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.633974 seconds.
+  path: Assets/Texture/Lamp.obj
+  artifactKey: Guid(aa204c6d8974f8742bf8a4296d9d9a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Lamp.obj using Guid(aa204c6d8974f8742bf8a4296d9d9a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872ad4b02162f95bb68f9ed9f71ca749') in 0.049461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.650312 seconds.
+  path: Assets/Texture/Lamp.png
+  artifactKey: Guid(0956f1aca8f07a94eb1644181217780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Lamp.png using Guid(0956f1aca8f07a94eb1644181217780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8f63441a272a5923695988d97be500') in 0.023289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.293069 seconds.
+  path: Assets/3DModels/Lamp.obj
+  artifactKey: Guid(56f502f174fcb324caa0935b4cd20b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Lamp.obj using Guid(56f502f174fcb324caa0935b4cd20b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82d91466190fe7d570b3bc539eeb845') in 0.047370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.999938 seconds.
+  path: Assets/Texture/Стена берюзовая (с дверью).png
+  artifactKey: Guid(f44960d6203dc9a44b6e83cf82f6cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Стена берюзовая (с дверью).png using Guid(f44960d6203dc9a44b6e83cf82f6cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d9da71e220caeb73cc85d617d197b3') in 0.018200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.075277 seconds.
+  path: Assets/Material/Floor_Wood.mat
+  artifactKey: Guid(23919edc1ea1e664096eb64a61bda019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Floor_Wood.mat using Guid(23919edc1ea1e664096eb64a61bda019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ce68692d83d6de225d73f027cdf0cc') in 0.031830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.999486 seconds.
+  path: Assets/Material/Door_Wood.mat
+  artifactKey: Guid(72d914d68cbc55e46949369a5aceb625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Door_Wood.mat using Guid(72d914d68cbc55e46949369a5aceb625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b783ded607f10f1160c4fc599ccde93a') in 0.026490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.401359 seconds.
+  path: Assets/Material/Wall.mat
+  artifactKey: Guid(38f4aa78d56be8a46ade0025d8c3f59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Wall.mat using Guid(38f4aa78d56be8a46ade0025d8c3f59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ebdafeb0f3ccc34ce77cdd00ffacb4') in 0.025763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.899524 seconds.
+  path: Assets/Material/WallWithDoor.mat
+  artifactKey: Guid(5ff348bfbd14da8468b67964abce1837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WallWithDoor.mat using Guid(5ff348bfbd14da8468b67964abce1837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5727aa84535ddd98b0bc30c8effdadc') in 0.026861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.372149 seconds.
+  path: Assets/Material/Lamp.mat
+  artifactKey: Guid(51de9d8b44065254cada5d53a158d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Lamp.mat using Guid(51de9d8b44065254cada5d53a158d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb458e2bf50a4a22aa3de8e63509c43f') in 0.016809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.913655 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.011031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.099184 seconds.
+  path: Assets/Material/Ceiling.mat
+  artifactKey: Guid(b2e0e54619bd7ea4e98c1f0a6d0ab682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Ceiling.mat using Guid(b2e0e54619bd7ea4e98c1f0a6d0ab682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071065ad5dc0e59a2f502efbd53b8985') in 0.017980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.038741 seconds.
+  path: Assets/Texture/Дверь1вариант.png
+  artifactKey: Guid(d618135b16871d24e8f54c0c71de7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Дверь1вариант.png using Guid(d618135b16871d24e8f54c0c71de7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0aeadc4986db01fda454a25569f79e') in 0.012804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012249 seconds.
+  path: Assets/Texture/Ceiling.png
+  artifactKey: Guid(8e10701c600b6b1499ff9a5d5b6451c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Ceiling.png using Guid(8e10701c600b6b1499ff9a5d5b6451c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefcb39e6d0316f4827606e75fd62974') in 0.012146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Texture/Стена берюзовая (с дверью).png
+  artifactKey: Guid(f44960d6203dc9a44b6e83cf82f6cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Стена берюзовая (с дверью).png using Guid(f44960d6203dc9a44b6e83cf82f6cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe3d69c3ff20f01d2696a25fab263f9') in 0.013078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Texture/Пол деревяный.png
+  artifactKey: Guid(5b0c2ee4b7fa1004a8d34e35558c983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Пол деревяный.png using Guid(5b0c2ee4b7fa1004a8d34e35558c983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a181a7f7a5488d1c16371d4bf0bae8b6') in 0.012997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.277415 seconds.
+  path: Assets/Material/Door_Wood1.mat
+  artifactKey: Guid(72d914d68cbc55e46949369a5aceb625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Door_Wood1.mat using Guid(72d914d68cbc55e46949369a5aceb625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db36a9c1f005d2f0a3c20a83797d43e') in 0.027991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.323277 seconds.
+  path: Assets/Material/Door_Wood2.mat
+  artifactKey: Guid(9072122c69d441a468b17a7c3752d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Door_Wood2.mat using Guid(9072122c69d441a468b17a7c3752d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795d88907a45d3f8107c9e575f3638d8') in 0.029678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.680876 seconds.
+  path: Assets/Material/Door_Wood3.mat
+  artifactKey: Guid(2812733a04049ea46bae540fd5595468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Door_Wood3.mat using Guid(2812733a04049ea46bae540fd5595468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dbe0e11d73b8a4451db0a2ada5b0eb') in 0.025272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.936633 seconds.
+  path: Assets/Texture/Дверь2вариант.png
+  artifactKey: Guid(34b952e2181113e4e9155e2eb3ee3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Дверь2вариант.png using Guid(34b952e2181113e4e9155e2eb3ee3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af12a519c7051b50a1514d14547ee941') in 0.026881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 413.828913 seconds.
+  path: Assets/Prefab/Door.prefab
+  artifactKey: Guid(200eb7179616e44449b1e0ae93507715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Door.prefab using Guid(200eb7179616e44449b1e0ae93507715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929a6134749f0176497013989bb7e4ff') in 0.034290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.751566 seconds.
+  path: Assets/Prefab/Door.prefab
+  artifactKey: Guid(200eb7179616e44449b1e0ae93507715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Door.prefab using Guid(200eb7179616e44449b1e0ae93507715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba37312c55f44a9d6f0d3156c2873bd0') in 0.027184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.362250 seconds.
+  path: Assets/Prefab/Door.prefab
+  artifactKey: Guid(200eb7179616e44449b1e0ae93507715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Door.prefab using Guid(200eb7179616e44449b1e0ae93507715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e0a61a69e70f68520a9d28a4d62525') in 0.024813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.089659 seconds.
+  path: Assets/Prefab/Ceiling.prefab
+  artifactKey: Guid(0b6dea93a870d3f47a4db1207742dfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ceiling.prefab using Guid(0b6dea93a870d3f47a4db1207742dfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b1813272644dde01bc5920132ce1ab') in 0.017806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.085092 seconds.
+  path: Assets/Prefab/Lamp.prefab
+  artifactKey: Guid(15b8b6d30a4435549a48d3f3d3c387a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Lamp.prefab using Guid(15b8b6d30a4435549a48d3f3d3c387a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facaf3f4caa270e87caa395a151ecded') in 0.018967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.911893 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9263d984daf60b0eca63e9179aa3dce') in 0.025125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.509485 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c1c76ca63f3b81fb03a5457a93afe8') in 0.020662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.547065 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fe5e82c37c766a7311c94bf1eaef85') in 0.020962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.787773 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be08b72295f929bca0c630a51e174eb') in 0.018950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.380763 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d38a327ccd261af3700591cf47a94b') in 0.014089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.593092 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cac886f6403434b85489354070e49e2') in 0.015681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.391055 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbba806862f1d1897a77b40c04f69ac') in 0.013268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.989467 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8c614dd2fccbdb6ff9aaef1302046b') in 0.015558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.409990 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b76f8ac5f6d9099b5f8d4bdb9e24ebb') in 0.016330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.984393 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79a1f4593bda429cf938e469d360edc') in 0.014558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392095 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b00a7b19ece18356820999c3dac827c') in 0.014816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.430688 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b54d15660fb034f360479ff3c69ca39') in 0.014717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.008158 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933f188f978a95182191377685bdc637') in 0.013934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.655088 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bff184b911a574b800da59be7673fe7') in 0.016368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.416850 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bdf6f073aa34b522b6f0fac99072bc') in 0.015383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.408392 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5f029a6228917bda93e212ffa5c9be') in 0.016754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.009782 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba83f3f65fdfced19a6f93cd0e7f56b') in 0.015190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.832632 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1b39921758e927c3ab7e2013ed8fe1') in 0.014956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.053505 seconds.
+  path: Assets/Prefab/Пол деревяный.prefab
+  artifactKey: Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Пол деревяный.prefab using Guid(5957c1b6d7535da49b2106e3f70887a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e061d6e0bb32f8a0267ba4b8b53bf04') in 0.013783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.761910 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8c341b0f43dc5787002ad4c9e78901') in 0.013747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.591030 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee26bd926488c1df69c0d95c9002ebd6') in 0.016094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.984620 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6d4c616c01e95f73ed1238cfa327e9') in 0.014726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.041009 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88921efad48f543af47d148f54773fb') in 0.015447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.154903 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49bc2a8d0ced491b8c5d3e7c147702e') in 0.014704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.390446 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15765dafd9f36c69330f9a8477747089') in 0.015740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.417854 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065ec3ba25445369cd26f6a6a1304e17') in 0.014489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.990547 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d9c07603629f6dba95c6df965344b1') in 0.014655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.431229 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbaf64279b09cef3d7ccf26d9129e66') in 0.014500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.801561 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a23d7d1e7d5b0f42e66b071175a8431') in 0.017106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.791377 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b98082a728c6c3f419917c78af0d87e') in 0.015922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.598426 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf6ffbe12730b5ca814551d85487f69') in 0.017166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.376104 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014037a8a1d992f4db1e6c58d618484f') in 0.013873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.606787 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a7929c0b40e6e5ce5b1197b0d4cfde') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.804037 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ede0411c52aa776e6ba18aa0b6e7a2c') in 0.017070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.814512 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f557c34119885034ffd345455594967') in 0.016726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.374499 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce9471384f49986b9e3a19ef6799f60') in 0.013975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.610600 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783d0cfc32f0a4229438488a1a5c0925') in 0.015258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.011418 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ffcc3ee10c4b5e641b1279b15457f7') in 0.014505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.199527 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326fb89bd9b8cd95203f28ee4f270b7a') in 0.015152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.252272 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae832949db8b6f481390183257341536') in 0.018336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.972584 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f38c9e587014da7d3c91c63c0dab54') in 0.016040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.622628 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d524916c815dc5ea281c3907ffaf88a') in 0.014446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.594082 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed321ae53e919994b7b0b39650d6038') in 0.013425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.482927 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82922530177d5d8735973449fab3c1b') in 0.015554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.588403 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae978181791f2c5af43168ab111e224') in 0.013672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.591581 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e1ff35552f4d531d79ba7e076c712f') in 0.016719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.184284 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6e05e3bd607111e8dd63711d75c693') in 0.015824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.401246 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96084bc9fe2ef3577d579937b0e93142') in 0.014855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.824682 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a662e445cff7efc41db1d163a33dcd5') in 0.015750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.596685 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b719d396f402152cb05e5d54c44b25b4') in 0.013984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.006810 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27db524ff80d4b6d2dcae18d5968bcca') in 0.014941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.197458 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a55cf8dbbadf0ae14495f6c18becc46') in 0.013797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.002673 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e3933561e307492c9cbecec6366006') in 0.014947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.342454 seconds.
+  path: Assets/Prefab/Ceiling.prefab
+  artifactKey: Guid(0b6dea93a870d3f47a4db1207742dfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ceiling.prefab using Guid(0b6dea93a870d3f47a4db1207742dfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dd0b1e3bb607339bc52744f7927c6f') in 0.026518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefab/Стена берюзовая.prefab
+  artifactKey: Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая.prefab using Guid(16c7f0945ef82ec4f9ad2a207e693cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945209d52377a451851adbe0aa19e1e1') in 0.022552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefab/Стена берюзовая (с дверью).prefab
+  artifactKey: Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Стена берюзовая (с дверью).prefab using Guid(07cfad756c6d90e43a94662079751776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8341c28e060d41ed7bbfec61dd089c80') in 0.023790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4042.214573 seconds.
+  path: Assets/Material/Ceiling.mat
+  artifactKey: Guid(b2e0e54619bd7ea4e98c1f0a6d0ab682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Ceiling.mat using Guid(b2e0e54619bd7ea4e98c1f0a6d0ab682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0854e51525d48d4d653380dc621cb35') in 0.053964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Material/Lamp.mat
+  artifactKey: Guid(51de9d8b44065254cada5d53a158d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Lamp.mat using Guid(51de9d8b44065254cada5d53a158d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8571cb8ba30bb93733dbff6d4744caa3') in 0.024158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Material/WallWithDoor.mat
+  artifactKey: Guid(5ff348bfbd14da8468b67964abce1837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WallWithDoor.mat using Guid(5ff348bfbd14da8468b67964abce1837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a516bc0de74aedfa759b337df2884cb7') in 0.021360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.182738 seconds.
+  path: Assets/Material/New Material.mat
+  artifactKey: Guid(6d97c140d8fd96c48816c5b4e9e50d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/New Material.mat using Guid(6d97c140d8fd96c48816c5b4e9e50d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7e20bde8c7f59a9d31eed973d1bfe6') in 0.025224 seconds 
