@@ -4,13 +4,33 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private DialogueUI dialogueUI;
 
-    private const float MoveSpeed = 10f;
+    private const float speed = 10f;
 
     public DialogueUI DialogueUI => dialogueUI;
 
     public IInteractable Interactable { get; set; }
 
     private Rigidbody rb;
+
+    private void GetInput()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.localPosition += transform.forward * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.localPosition += -transform.forward * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.localPosition += -transform.right * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.localPosition += transform.right * speed * Time.deltaTime;
+        }
+    }
 
     private void Start()
     {
@@ -20,9 +40,8 @@ public class Player : MonoBehaviour
     private void Update()
     {
         if (dialogueUI.isOpen) return;
-        Vector3 input = new Vector3(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
-
-        rb.MovePosition(rb.position + input.normalized * (MoveSpeed * Time.fixedDeltaTime));
+        GetInput();
+        
 
         if (Input.GetKeyDown(KeyCode.E))
         {

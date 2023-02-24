@@ -56,14 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DialogueSystem\DialogueUI.cs" />
-    <Compile Include="Assets\Scripts\DialogueSystem\TypeWriterEffect.cs" />
-    <Compile Include="Assets\Scripts\DialogueSystem\DialogueObject.cs" />
-    <Compile Include="Assets\Scripts\DialogueSystem\Response.cs" />
-    <Compile Include="Assets\Scripts\DialogueSystem\ResponseHandler.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueActivator.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueObject.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueUI.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\Response.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\TypeWriterEffect.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\ResponseHandler.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\ResponseEvent.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueResponseEvents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

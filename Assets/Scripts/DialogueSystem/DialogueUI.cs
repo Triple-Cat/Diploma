@@ -26,17 +26,24 @@ public class DialogueUI : MonoBehaviour
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
+    public void AddResponseEvents(ResponseEvent[] responseEvents)
+    {
+        responseHandler.AddResponseEvent(responseEvents);
+    }
+
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
 
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
-            yield return typeWriterEffect.Run(dialogue, textlabel);
+
+            yield return RunTypingEffect(dialogue);
+            textlabel.text = dialogue;
 
             if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
-
+            yield return null;
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         }
 
@@ -49,8 +56,20 @@ public class DialogueUI : MonoBehaviour
             CloseDialogueBox();
         }
     }
+    private IEnumerator RunTypingEffect(string dialogue)
+    {
+        typeWriterEffect.Run(dialogue, textlabel);
+        while (typeWriterEffect.isRunning)
+        {
+            yield return null;
 
-    private void CloseDialogueBox()
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                typeWriterEffect.Stop();
+            }
+        }
+    }
+    public void CloseDialogueBox()
     {
         isOpen = false;
         dialogueBox.SetActive(false);
