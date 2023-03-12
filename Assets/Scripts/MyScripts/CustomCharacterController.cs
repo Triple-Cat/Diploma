@@ -20,6 +20,11 @@ public class CustomCharacterController : MonoBehaviour
     public float vertical;
     public float lerpMultiplier = 7;
 
+    [SerializeField] private DialogueUI dialogueUI;
+    public DialogueUI DialogueUI => dialogueUI;
+    public IInteractable Interactable { get; set; }
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -90,7 +95,15 @@ public class CustomCharacterController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
-        }      
+        }
+
+        if (dialogueUI.isOpen) return;
+
+        if (Interactable != null)
+        {
+            Interactable.Interact(this);
+        }
+
     }
 
     // Update is called once per frame

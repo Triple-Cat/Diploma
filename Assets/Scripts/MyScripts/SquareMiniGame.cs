@@ -7,10 +7,14 @@ using UnityEngine.UI;
 public class SquareMiniGame : MonoBehaviour
 {
 
-    [SerializeField] public Image panel; // Ссылка на панель
-    [SerializeField] public Behaviour canvas; // Ссылка на канвас 
-    [SerializeField] public Text scoreText; // Ссылка на текст с счётом
-    [SerializeField] public Text taskText; // Ссылка на текст с заданием
+    [SerializeField] private Image rotationPanel; // Ссылка на панель управление поворотом персонажа
+    [SerializeField] private Behaviour canvasMiniGame; // Ссылка на канвас с мини игрой 
+    [SerializeField] private GameObject SquareGameRunner; // Ссылка на канвас с диалоговой системой
+    [SerializeField] private Text scoreText; // Ссылка на текст с счётом
+    [SerializeField] private Text taskText; // Ссылка на текст с заданием
+    [SerializeField] private Image joystick1; // Ссылка на джостик
+    [SerializeField] private Image joystick2; // Ссылка на джостик
+
 
     public int scoreSquareGame = 0; // Счёт этой мини игры
 
@@ -19,42 +23,52 @@ public class SquareMiniGame : MonoBehaviour
 
     public void Start()
     {
-        canvas.enabled = false;
+        canvasMiniGame.enabled = false;
     }
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        // Вызов метода запускающего мини игру
+        if (SquareGameRunner.activeInHierarchy)
+            if (winPointSquareGame < 3)
         {
-            SquareGame();         
-        }  
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Time.timeScale = 1;
-            canvas.enabled = false;
+            SquareGame();
         }
-        scoreText.text = "Счёт:" + scoreSquareGame;
-
-        if (winPointSquareGame == 3)
+        // Вызов метода присуждающего победу в минин игре
+        else if (winPointSquareGame == 3)
         {
             MiniGameIsWin();
         }
+
+
+        // Возобновление игры по нажатию на кнопку 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Time.timeScale = 1;
+            canvasMiniGame.enabled = false;
+        } 
+
+
+
+        //scoreText.text = "Счёт:" + scoreSquareGame;
+
+
     }
 
     public void SquareGame()
     {
 
-        canvas.enabled = true; // Включаем канвас с мини игрой 
+        canvasMiniGame.enabled = true; // Включаем канвас с мини игрой 
         Time.timeScale = 0; // Останавливаем время  
         
-        panel.enabled = false; // Отключаем панель отвечающую за поворот на мобилке
+        rotationPanel.enabled = false; // Отключаем панель отвечающую за поворот на мобилке
 
         // Прекрепляем курсор к середине экрана
         Cursor.lockState = CursorLockMode.None;
         // и делаем его невидимым
         Cursor.visible = true;
-
+        joystick1.enabled = false;
+        joystick2.enabled = false;
     }
 
     public void ScoreIncrease()
@@ -76,6 +90,9 @@ public class SquareMiniGame : MonoBehaviour
     {
         squareGameIsWin = true;
         Time.timeScale = 1;
-        canvas.enabled = false;
+        canvasMiniGame.enabled = false;
+        joystick1.enabled = true;
+        joystick2.enabled = true;
+        rotationPanel.enabled = true;
     }
 }
