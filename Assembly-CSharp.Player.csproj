@@ -53,43 +53,62 @@
     <UnityVersion>2021.3.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Other\DataBaseHolder.cs" />
+    <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Scripts\MiniGame\SquareMiniGame\CardSelection.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\IInteractable.cs" />
-    <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\UI\SpellsCanvas.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\Spells.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueActivator.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueObject.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\CyclicSpell.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\ResponseEvent.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueUI.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\CaesarsCipher.cs" />
+    <Compile Include="Assets\Resourses\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\Player\Control\CustomCharacterController.cs" />
+    <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\Response.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\SwotSpellAnalysis.cs" />
+    <Compile Include="Assets\Scripts\Player\Control\CameraControllerPanel.cs" />
+    <Compile Include="Assets\Scripts\MiniGame\SquareMiniGame\SquareMiniGame.cs" />
+    <Compile Include="Assets\Resourses\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Scripts\Other\ItemScriotableObject.cs" />
+    <Compile Include="Assets\Scripts\Player\Control\PlayerMechanics.cs" />
+    <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\SynthesisofPotions.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueResponseEvents.cs" />
+    <Compile Include="Assets\Scripts\Other\Item.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\TypeWriterEffect.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\ResponseHandler.cs" />
-    <Compile Include="Assets\Scripts\DialogueSystem\ResponseEvent.cs" />
-    <Compile Include="Assets\Scripts\DialogueSystem\DialogueResponseEvents.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Resourses\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -690,6 +709,10 @@
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{F9AA05CC-7852-91B9-E525-8AA58DB170CD}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{50A077CE-B1C9-608E-4AC8-5BA17235DBAD}</Project>
+      <Name>Cinemachine.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{5BDA90DE-4179-271D-ADB5-AF988D386F8F}</Project>
