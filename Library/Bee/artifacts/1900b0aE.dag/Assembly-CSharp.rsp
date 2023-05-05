@@ -373,6 +373,7 @@
 "Assets/Scripts/DialogueSystem/ResponseEvent.cs"
 "Assets/Scripts/DialogueSystem/ResponseHandler.cs"
 "Assets/Scripts/DialogueSystem/TypeWriterEffect.cs"
+"Assets/Scripts/MiniGame/MatgorinMiniGame/CheckAnswer.cs"
 "Assets/Scripts/MiniGame/SquareMiniGame/CardSelection.cs"
 "Assets/Scripts/MiniGame/SquareMiniGame/SquareMiniGame.cs"
 "Assets/Scripts/Other/DataBaseHolder.cs"
@@ -388,6 +389,7 @@
 "Assets/Scripts/Player/Spells/SynthesisofPotions.cs"
 "Assets/Scripts/UI/SpellsCanvas.cs"
 "Assets/Scripts/UI/UIItem.cs"
+"Assets/Scripts/UI/UISlot.cs"
 -langversion:9.0
 
 /deterministic

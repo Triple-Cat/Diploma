@@ -87,6 +87,8 @@
     <Compile Include="Assets\Scripts\Other\Item.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\TypeWriterEffect.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\ResponseHandler.cs" />
+    <Compile Include="Assets\Scripts\UI\UISlot.cs" />
+    <Compile Include="Assets\Scripts\MiniGame\MatgorinMiniGame\CheckAnswer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMPro.cginc" />

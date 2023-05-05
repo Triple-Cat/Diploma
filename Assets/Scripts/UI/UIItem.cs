@@ -5,29 +5,34 @@ using UnityEngine.EventSystems;
 
 public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler 
 {
-    private Canvas m_canvas;
-    private RectTransform m_RectTransform;
-
+    [SerializeField] private CanvasGroup _canvasGroup;
+    [SerializeField] private Canvas m_canvas;
+    [SerializeField] private RectTransform m_RectTransform;
+    
     private void Start()
     {
+        _canvasGroup = GetComponent<CanvasGroup>();
         m_RectTransform = GetComponent<RectTransform>();
-        m_canvas = GetComponent<Canvas>();
+        m_canvas = GetComponentInParent<Canvas>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        var slotTransform = m_RectTransform.parent;
+        slotTransform.SetAsLastSibling();
+        _canvasGroup.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        m_RectTransform.anchoredPosition += eventData.delta / m_canvas.scaleFactor; 
+        m_RectTransform.anchoredPosition += eventData.delta / m_canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        transform.localPosition = Vector3.zero;
+        _canvasGroup.blocksRaycasts = true;
 
-        //transform.localPosition = Vector3.zero;
     }
+
 }
