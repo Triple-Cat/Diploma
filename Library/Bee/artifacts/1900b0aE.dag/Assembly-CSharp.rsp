@@ -387,6 +387,7 @@
 "Assets/Scripts/Player/Spells/SwotSpellAnalysis.cs"
 "Assets/Scripts/Player/Spells/SynthesisofPotions.cs"
 "Assets/Scripts/UI/SpellsCanvas.cs"
+"Assets/Scripts/UI/UIItem.cs"
 -langversion:9.0
 
 /deterministic
