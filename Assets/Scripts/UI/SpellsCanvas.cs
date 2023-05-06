@@ -9,6 +9,7 @@ public class SpellsCanvas : MonoBehaviour
 
     [SerializeField] GameObject spellButtons;
 
+    [SerializeField] Button chooseSpells;
     [SerializeField] Button swotButton;
     [SerializeField] Button cyclicButton;
     [SerializeField] Button synthesisButton;
@@ -26,13 +27,13 @@ public class SpellsCanvas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isSpeellButtonsActive = false; 
+        isSpeellButtonsActive = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SpellButtonSwotSpellAnalysis()
@@ -85,5 +86,11 @@ public class SpellsCanvas : MonoBehaviour
         spellButtons.SetActive(false);
         isSpeellButtonsActive = false;
 
+    }
+
+    public void AllSpellButtonsDeactivate()
+    {
+        chooseSpells.gameObject.SetActive(false);
+        SpellButtonsDeactivate();
     }
 }

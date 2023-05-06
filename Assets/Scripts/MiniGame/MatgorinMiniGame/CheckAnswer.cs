@@ -18,6 +18,6 @@ public class CheckAnswer : MonoBehaviour
 
     void CheckingAnswer()
     {
-
+        //if ()
     }
 }

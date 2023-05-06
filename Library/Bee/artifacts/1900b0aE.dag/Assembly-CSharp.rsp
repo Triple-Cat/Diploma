@@ -387,6 +387,7 @@
 "Assets/Scripts/Player/Spells/Spells.cs"
 "Assets/Scripts/Player/Spells/SwotSpellAnalysis.cs"
 "Assets/Scripts/Player/Spells/SynthesisofPotions.cs"
+"Assets/Scripts/UI/CheckUIElementOverlap.cs"
 "Assets/Scripts/UI/SpellsCanvas.cs"
 "Assets/Scripts/UI/UIItem.cs"
 "Assets/Scripts/UI/UISlot.cs"

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SwotSpellAnalysis : Spells
 {
+    public GameObject miniGameSWOT;
     public override bool isAvailable { get; set; } = false;
 
     void Start()
@@ -19,6 +20,6 @@ public class SwotSpellAnalysis : Spells
 
     public override void SpellUse()
     {
-       Debug.Log("SwotSpellAnalysis");
+        miniGameSWOT.SetActive(true);
     }
 }
