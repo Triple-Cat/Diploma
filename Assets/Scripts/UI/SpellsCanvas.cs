@@ -36,41 +36,55 @@ public class SpellsCanvas : MonoBehaviour
 
     }
 
-    public void SpellButtonSwotSpellAnalysis()
-    {
-        isSpellOfSwotSpellAnalysis = playerMechanics.SpellOfSwotSpellAnalysis;
-        if (isSpellOfSwotSpellAnalysis)
-        {
-            swotButton.enabled = true;
-        }
-        else
-        {
-            swotButton.enabled = false;
-        }
-    }
-    public void CyclicSpell()
-    {
-        isSpellOfCyclic = playerMechanics.SpellOfCyclic;
-        if (!isSpellOfCyclic)
-        {
+    //public void SpellButtonSwotSpellAnalysis()
+    //{
+    //    isSpellOfSwotSpellAnalysis = playerMechanics.SpellOfSwotSpellAnalysis;
+    //    if (isSpellOfSwotSpellAnalysis)
+    //    {
+    //        swotButton.enabled = true;
+    //    }
+    //    else
+    //    {
+    //        swotButton.enabled = false;
+    //    }
+    //}
+    //public void CyclicSpell()
+    //{
+    //    isSpellOfCyclic = playerMechanics.SpellOfCyclic;
+    //    if (isSpellOfCyclic)
+    //    {
+    //        cyclicButton.enabled = true;
+    //    }
+    //    else
+    //    {
+    //        cyclicButton.enabled = false;
+    //    }
+    //}
 
-        }
-    }
-
-    public void SynthesisofPotions()
-    {
-        if (isSpellOfSynthesisofPotions)
-        {
-
-        }
-    }
-    public void SpellButtonCaesarsCipher()
-    {
-        if (isSpellOfCaesarsCipher)
-        {
-
-        }
-    }
+    //public void SynthesisofPotions()
+    //{
+    //    isSpellOfSynthesisofPotions = playerMechanics.SpellOfSynthesisofPotions;
+    //    if (isSpellOfSynthesisofPotions)
+    //    {
+    //        synthesisButton.enabled = true;
+    //    }
+    //    else
+    //    {
+    //        synthesisButton.enabled = false;
+    //    }
+    //}
+    //public void SpellButtonCaesarsCipher()
+    //{
+    //    isSpellOfCaesarsCipher = playerMechanics.SpellOfCaesarsCipher;
+    //    if (isSpellOfCaesarsCipher)
+    //    {
+    //        caesarButton.enabled = true;
+    //    }
+    //    else
+    //    {
+    //        caesarButton.enabled = false;
+    //    }
+    //}
 
     public void SpellButtonsActivate()
     {
@@ -87,7 +101,6 @@ public class SpellsCanvas : MonoBehaviour
         isSpeellButtonsActive = false;
 
     }
-
     public void AllSpellButtonsDeactivate()
     {
         chooseSpells.gameObject.SetActive(false);

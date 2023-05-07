@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CyclicSpell : Spells
 {
+    public GameObject miniGameCyclicSpell;
+
     public override bool isAvailable { get; set; } = false;
     void Start()
     {
@@ -17,6 +19,6 @@ public class CyclicSpell : Spells
     }
     public override void SpellUse()
     {
-        Debug.Log("CyclicSpell");
+        miniGameCyclicSpell.SetActive(true);
     }
 }

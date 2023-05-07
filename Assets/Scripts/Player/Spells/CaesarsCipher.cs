@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CaesarsCipher : Spells
 {
+    public GameObject miniGameCaesarsCipher;
+
     public override bool isAvailable { get; set; } = false;
     void Start()
     {
@@ -18,6 +20,6 @@ public class CaesarsCipher : Spells
 
     public override void SpellUse()
     {
-        Debug.Log("CaesarsCipher");
+        miniGameCaesarsCipher.SetActive(true);
     }
 }

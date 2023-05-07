@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SynthesisofPotions : Spells
 {
+    public GameObject miniGameSynthesisofPotions;
+
     public override bool isAvailable { get; set; } = false;
     void Start()
     {
@@ -17,6 +19,6 @@ public class SynthesisofPotions : Spells
     }
     public override void SpellUse()
     {
-        Debug.Log("SynthesisofPotions");
+        miniGameSynthesisofPotions.SetActive(true);
     }
 }
