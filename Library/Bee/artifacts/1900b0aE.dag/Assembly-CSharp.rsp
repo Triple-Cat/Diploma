@@ -386,6 +386,7 @@
 "Assets/Scripts/Player/Spells/Spells.cs"
 "Assets/Scripts/Player/Spells/SwotSpellAnalysis.cs"
 "Assets/Scripts/Player/Spells/SynthesisofPotions.cs"
+"Assets/Scripts/UI/DeactiveCanvas.cs"
 "Assets/Scripts/UI/MatgorinGame/CheckUIElementOverlap.cs"
 "Assets/Scripts/UI/MatgorinGame/UIItem.cs"
 "Assets/Scripts/UI/MatgorinGame/UISlot.cs"
