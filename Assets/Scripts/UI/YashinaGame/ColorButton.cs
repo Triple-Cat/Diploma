@@ -7,6 +7,8 @@ public class ColorButton : MonoBehaviour
 {
     [SerializeField] LevelSyntasis levelSyntasis;
 
+    [SerializeField] public GameObject chooseSpells;
+
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject tipsUncorrectly;
     [SerializeField] GameObject tipsNotCompleted;
@@ -51,6 +53,7 @@ public class ColorButton : MonoBehaviour
     {
         tipsCorrectly.SetActive(false);
         canvasSyntesisGame.SetActive(false);
+        chooseSpells.SetActive(true);
     }
 
     void GameLose()

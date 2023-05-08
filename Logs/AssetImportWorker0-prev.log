@@ -15,7 +15,7 @@ D:/Diplom/Diploma
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51528
+51985
 Successfully changed project path to: D:/Diplom/Diploma
 D:/Diplom/Diploma
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Diplom/Diploma
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22628] Host "[IP] 192.168.138.1 [Port] 0 [Flags] 2 [Guid] 1016391462 [EditorId] 1016391462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-304N3UM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12908] Host "[IP] 192.168.138.1 [Port] 0 [Flags] 2 [Guid] 1316779110 [EditorId] 1316779110 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-304N3UM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22628] Host "[IP] 192.168.138.1 [Port] 0 [Flags] 2 [Guid] 1016391462 [EditorId] 1016391462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-304N3UM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12908] Host "[IP] 192.168.138.1 [Port] 0 [Flags] 2 [Guid] 1316779110 [EditorId] 1316779110 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-304N3UM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 97.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008662 seconds.
+Registered in 0.007980 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 85.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
+- Completed reload, in  0.702 seconds
 Domain Reload Profiling:
-	ReloadAssembly (657ms)
+	ReloadAssembly (702ms)
 		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (470ms)
+		EndReloadAssembly (518ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
+				InitializePlatformSupportModulesInManaged (61ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005485 seconds.
+Registered in 0.004095 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
+- Completed reload, in  1.324 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1473ms)
-		BeginReloadAssembly (247ms)
+	ReloadAssembly (1325ms)
+		BeginReloadAssembly (229ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (149ms)
-		EndReloadAssembly (1087ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (426ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (432ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 40 unused Assets / (184.6 KB). Loaded Objects now: 4032.
 Memory consumption went from 124.8 MB to 124.6 MB.
-Total: 3.153400 ms (FindLiveObjects: 0.290300 ms CreateObjectMapping: 0.197500 ms MarkObjects: 2.546800 ms  DeleteObjects: 0.117900 ms)
+Total: 3.387900 ms (FindLiveObjects: 0.271300 ms CreateObjectMapping: 0.196300 ms MarkObjects: 2.793300 ms  DeleteObjects: 0.126000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,86 +166,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 85094.054329 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1d1057b5e27cf3948a869a8ab30c06') in 0.013907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 686.685609 seconds.
-  path: Assets/Scenes/SecondScene.unity
-  artifactKey: Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SecondScene.unity using Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e437c9f26dc2fd333d008d4f117246b9') in 0.001986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.345595 seconds.
-  path: Assets/Scenes/MategorinGame.unity
-  artifactKey: Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MategorinGame.unity using Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facfa506f25e394d2d1e9e3b58313715') in 0.006464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.967494 seconds.
-  path: Assets/Scenes/YashinaGame.unity
-  artifactKey: Guid(28d12bcee2a5e5049bf59cde0b7a5546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/YashinaGame.unity using Guid(28d12bcee2a5e5049bf59cde0b7a5546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71d73838e225e4d80531a280bce37af') in 0.007234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.614098 seconds.
-  path: Assets/Scenes/TrubchikGame.unity
-  artifactKey: Guid(fff6e8ecc95524a4d95f80bb2db6a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TrubchikGame.unity using Guid(fff6e8ecc95524a4d95f80bb2db6a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e644ef5639fa7624f91cc32d8e37bc') in 0.007528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.496544 seconds.
-  path: Assets/Scenes/DoroshenkoGame.unity
-  artifactKey: Guid(542c50fe5834a9543aa2423fcd61e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DoroshenkoGame.unity using Guid(542c50fe5834a9543aa2423fcd61e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769b8d7c1842431e4c3058f04d97cb13') in 0.007668 seconds 
+  Time since last request: 88301.103041 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
+  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580cdb54839dffe78bf9266fe10227ed') in 0.117544 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005232 seconds.
+Registered in 0.003876 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
+- Completed reload, in  1.312 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1104ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1313ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (854ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
+			SetupTypeCache (367ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (388ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (487ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (151.1 KB). Loaded Objects now: 4047.
-Memory consumption went from 123.3 MB to 123.2 MB.
-Total: 3.524600 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.166700 ms MarkObjects: 3.000300 ms  DeleteObjects: 0.102400 ms)
+Unloading 22 unused Assets / (151.9 KB). Loaded Objects now: 4048.
+Memory consumption went from 123.4 MB to 123.2 MB.
+Total: 3.599100 ms (FindLiveObjects: 0.302200 ms CreateObjectMapping: 0.250100 ms MarkObjects: 2.919200 ms  DeleteObjects: 0.126600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -259,62 +229,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 345.132239 seconds.
-  path: Assets/Scenes/TrubchikGame.unity
-  artifactKey: Guid(fff6e8ecc95524a4d95f80bb2db6a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TrubchikGame.unity using Guid(fff6e8ecc95524a4d95f80bb2db6a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022e63cb342dee6be6207886697860f7') in 0.006120 seconds 
+  Time since last request: 89.975345 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5455e2ddd3b7db1f7db8595adeef7f11') in 0.074753 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.114501 seconds.
-  path: Assets/Scenes/MategorinGame.unity
-  artifactKey: Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MategorinGame.unity using Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d190b728ca3816912ee78d3d7b0d866') in 0.001710 seconds 
+  Time since last request: 1.509358 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab44ecacbaaad407b0f0ad0006b1f9b') in 0.033273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.011531 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3e0ad6bade2cf47657c824767fbcb6') in 0.032655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208742 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae095499640c7cee1f415b91c3ab0d6') in 0.037622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.406123 seconds.
+  path: Assets/Scripts/UI/YashinaGame/ColorButton.cs
+  artifactKey: Guid(49602afcf98c6cc4786df53cf602799c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/YashinaGame/ColorButton.cs using Guid(49602afcf98c6cc4786df53cf602799c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d5c8cfc78f4ad8de65eef8d34f5de') in 0.012681 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004150 seconds.
+Registered in 0.004237 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.345 seconds
+- Completed reload, in  1.248 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1346ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1092ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (480ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (451ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.2 KB). Loaded Objects now: 4063.
+Memory consumption went from 123.4 MB to 123.3 MB.
+Total: 3.396600 ms (FindLiveObjects: 0.296700 ms CreateObjectMapping: 0.323200 ms MarkObjects: 2.673600 ms  DeleteObjects: 0.102100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 835.983579 seconds.
+  path: Assets/Scripts/UI/DeactiveCanvas.cs
+  artifactKey: Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DeactiveCanvas.cs using Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d66388ac3ea85582e76a7969bf8f9e') in 0.013806 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1714ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1272ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (506ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (151.0 KB). Loaded Objects now: 4062.
-Memory consumption went from 123.3 MB to 123.2 MB.
-Total: 4.158300 ms (FindLiveObjects: 0.280600 ms CreateObjectMapping: 0.337500 ms MarkObjects: 3.282600 ms  DeleteObjects: 0.256600 ms)
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.1 KB). Loaded Objects now: 4079.
+Memory consumption went from 123.5 MB to 123.3 MB.
+Total: 2.802500 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.187900 ms MarkObjects: 2.249500 ms  DeleteObjects: 0.108200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -327,744 +378,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 71.777809 seconds.
+  path: Assets/Scripts/UI/DeactiveCanvas.cs
+  artifactKey: Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DeactiveCanvas.cs using Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31efa9175ab385d92a4cfffb21e808aa') in 0.007523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.242388 seconds.
+  path: Assets/Scripts/UI/DeactiveCanvas.cs
+  artifactKey: Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DeactiveCanvas.cs using Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e872754455c28f197ed4ebdfa913405e') in 0.001831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.949364 seconds.
+  path: Assets/Scripts/UI/DeactiveCanvas.cs
+  artifactKey: Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DeactiveCanvas.cs using Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c838ac85cb34cf20177d11e730fa342') in 0.001725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.969143 seconds.
+  path: Assets/Scripts/UI/DeactiveCanvas.cs
+  artifactKey: Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DeactiveCanvas.cs using Guid(0ef280b476eb33347924c32d0e12ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2990c9e53e39344531ea6f1bff764181') in 0.001796 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004135 seconds.
+Registered in 0.004958 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.296 seconds
+- Completed reload, in  1.142 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1297ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1053ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
+			SetupTypeCache (339ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (480ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (151.1 KB). Loaded Objects now: 4077.
-Memory consumption went from 123.3 MB to 123.2 MB.
-Total: 3.340800 ms (FindLiveObjects: 0.270200 ms CreateObjectMapping: 0.253700 ms MarkObjects: 2.704000 ms  DeleteObjects: 0.112000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004845 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.290 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1290ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1048ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (476ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (151.1 KB). Loaded Objects now: 4092.
-Memory consumption went from 123.4 MB to 123.2 MB.
-Total: 3.495700 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.302100 ms MarkObjects: 2.774300 ms  DeleteObjects: 0.116000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 151.138390 seconds.
-  path: Assets/Scenes/Tips.prefab
-  artifactKey: Guid(f66b7f473745f4546a7e1ffa3bc73f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tips.prefab using Guid(f66b7f473745f4546a7e1ffa3bc73f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e9bacf472c06870d39f801c17263e2') in 0.110738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 85.166303 seconds.
-  path: Assets/Scenes/TrubchikGame.unity
-  artifactKey: Guid(fff6e8ecc95524a4d95f80bb2db6a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TrubchikGame.unity using Guid(fff6e8ecc95524a4d95f80bb2db6a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4070b0df608197273021937935339836') in 0.002527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.311877 seconds.
-  path: Assets/Scenes/MategorinGame.unity
-  artifactKey: Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MategorinGame.unity using Guid(dd5d5de7234a85840b95417b64d001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d1e6f916b2a7dd1b304334216fc83e') in 0.002491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 451.852428 seconds.
-  path: Assets/Art/Prefab/MiniGames
-  artifactKey: Guid(e9fd9cc9c8b02e944801497075f5f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/MiniGames using Guid(e9fd9cc9c8b02e944801497075f5f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7fb4f298399c168d4dfdb337bd5b44') in 0.006928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.908368 seconds.
-  path: Assets/Art/Prefab/MiniGames/CanvasForSquareGame.prefab
-  artifactKey: Guid(fb6f2f69267e3ef449b0ede42b7387b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/MiniGames/CanvasForSquareGame.prefab using Guid(fb6f2f69267e3ef449b0ede42b7387b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8950c6ff47a75c3d752e4bbfa883238') in 0.045165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.971282 seconds.
-  path: Assets/Art/Prefab/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523eb9c05cc5f6d53de45cd57714a4fc') in 0.041329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.279365 seconds.
-  path: Assets/Art/Prefab/MiniGames/CanvasForTrubchikGame.prefab
-  artifactKey: Guid(c36ede78241120a44a46c9bdc14c8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/MiniGames/CanvasForTrubchikGame.prefab using Guid(c36ede78241120a44a46c9bdc14c8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26906daf103c93db053d50a8b34cb78f') in 0.009749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.143577 seconds.
-  path: Assets/Art/Prefab/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5849b3b39ae905bb93e09f581ce0bdc') in 0.037597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.144469 seconds.
-  path: Assets/Art/Prefab/MiniGames/CanvasForDoroshenkoGame.prefab
-  artifactKey: Guid(b75b5121f31f9f34bbc1b9ad999cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/MiniGames/CanvasForDoroshenkoGame.prefab using Guid(b75b5121f31f9f34bbc1b9ad999cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1035c5d313dc29e3c49cc9fe916756') in 0.008858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.916766 seconds.
-  path: Assets/Art/Prefab/Canvas
-  artifactKey: Guid(db6221e83fc695d4c8b6e3ecbaaf2c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas using Guid(db6221e83fc695d4c8b6e3ecbaaf2c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e0141d38cd6698c12d29c49a409132') in 0.007521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.041600 seconds.
-  path: Assets/Art/Prefab/Canvas/CanvasDialogueSystem.prefab
-  artifactKey: Guid(4d36252020413524d81150a8f71e56aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/CanvasDialogueSystem.prefab using Guid(4d36252020413524d81150a8f71e56aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193dbafe7d68ad61df729340ebf7670a') in 0.035028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.339708 seconds.
-  path: Assets/Art/Prefab/Canvas/CanvasForSpells.prefab
-  artifactKey: Guid(45737f42d9b68f54e8cd9f8097e4fb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/CanvasForSpells.prefab using Guid(45737f42d9b68f54e8cd9f8097e4fb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea46b5c3df80e26ea2f34d59d7a9c6a') in 0.034732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.339909 seconds.
-  path: Assets/Art/Prefab/Canvas/CanvasForControl.prefab
-  artifactKey: Guid(b63e2645cc7ea0947a2f510f0e76aae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/CanvasForControl.prefab using Guid(b63e2645cc7ea0947a2f510f0e76aae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e33c0f6eb1c2550f03da509788c448') in 0.010004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.457604 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b30f42bd69cf7b09e28867b5431314b') in 0.033966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.711061 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464e60a8f7b99fd82a5b01c1d35847a0') in 0.035201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.071308 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37becad1f2499939ac4d3de58bf78ed8') in 0.035557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.016033 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedbba87579936fb454657545b712d3a') in 0.036736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.775174 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7ac036589bb7909765d840e6a803eb') in 0.036443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.653986 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de906d38424a2706533d82baf5ed5f91') in 0.038272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.218590 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7e734de65bf1060e506627c495063c') in 0.032125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.622968 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa76bb8c1e6fb7ec0ad4e98c8536a97') in 0.035220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.785551 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d496484d01cb3fa945501b00e97425') in 0.033857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.370080 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81d4bfed100fcb4341a6e249a75da96') in 0.034103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.211732 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba21c24789b7e3e3c22c996eefc30f3c') in 0.035577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.301554 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c962f00db3724aea1f1ffb8f5556746') in 0.034126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.616879 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae9676fac0f277c0af0cbb60f6082da') in 0.033161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.986221 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ca84d903d658eb47f5f14896e7b8c9') in 0.034642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.136639 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daa292d7a0ef07e332a700d70557c01') in 0.032552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.827011 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e267d318f34bdd3eaf40509855a0a94') in 0.036355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.256938 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d94dc71d922b79d0fb41ccbb017bde') in 0.033183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.600068 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b85ef566b71957b0cd5dfdd5816e058') in 0.034139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.766728 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47601816fdabd877a7a4c3af60e69a2d') in 0.032898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.128474 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1392f2f2dc2fa0614b6f1dbb7a0bc84e') in 0.039014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.471802 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9221f9ef62d322a336c504fc2e143f') in 0.038055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.572171 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0894e55267b4cb294008167b57b98d') in 0.032164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.461903 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f83fbd308c833d09fff8fea3bea52c') in 0.033556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.987068 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4856043bd67a26505bbf1e8cd058b3b3') in 0.036349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.804078 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab85bd5f748237512da9cab62e063a11') in 0.038537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.610113 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f3fccaf237f79a9ce03bdcbfe652d4') in 0.033317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.061675 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb230e76dc63b83b292420ef6b505414') in 0.033611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.818281 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3859c5f4e03b55572f53162cf99f17b') in 0.034841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.015851 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfec26bdb03757873104f0acdf04417') in 0.036480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.194187 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288a19098668167c15990242b3d6a9c4') in 0.033423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.590034 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a921e8728038d8e2de411b53bf8210') in 0.036777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.296548 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6884c53c3dfffcff450eb906498723') in 0.031962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.954710 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbc76f08a4b1d60e00c8334526bedca') in 0.034762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.809300 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b7a27882cddc0622b70276303078dc') in 0.033401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.794830 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f801646714f3929590117a5c95297700') in 0.033591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.238095 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415efc17665026d89c4407381faa0e77') in 0.036285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.243014 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ac03498178c9e7da7144e38760fe08') in 0.032435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.533016 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ee37f1b7e11bd4ccf0ca3733c68124') in 0.032895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.047230 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c967ec55414971443c6f58479c3ed589') in 0.031947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.648708 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95841b2c73b021da7995c018b5e7a9a') in 0.034560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.793232 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc918b6ca35bb7951a380708c9ede82') in 0.031740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.395258 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55347f23cc31f76ab6bdeb5c24e6a45') in 0.037048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.790465 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7e3732d09d0f25c29609e6ed97a653') in 0.034866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.188012 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bfe45392abf732c187026611f5a5ec') in 0.032391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.166886 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42bda20fa715d922374291df3af1125') in 0.032958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.437786 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4bc78901d3b6276ad917e3aa2cb699') in 0.034578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.675266 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415359753d3122a0a638005f72a40092') in 0.031870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.866280 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd480712d88f40160056af1094cf0a1f1') in 0.034469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.771506 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e7214cbd593f09570691c3c6450f15') in 0.034680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.654966 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffb4501d96973e92c04c3d6f51db5b7') in 0.034870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.982082 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3977a47a3702e37f810632cfc3b066') in 0.033796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.906465 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a3da5b5fb3d0e0599cd1fcb70a7274') in 0.033986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.375457 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b396ce77fb0fd33feda2a02859d250d') in 0.034668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.028597 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ea1470bb044938b4a3aa847fa25dbb') in 0.035972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.500458 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dbd43fbd3535c5588d2e4830953e9c') in 0.032994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.633079 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb5d6a179f2db1f30661654d9b94786') in 0.034679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.576525 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870acf82aab718c67134e0c47cdf30a9') in 0.032818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.582641 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46134d131d295673528a8dace0fa431a') in 0.031999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.923164 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da218ed0ff65390c13dea986ba5b5896') in 0.033307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.544343 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbda2be09abee31cd97997f7660e145') in 0.036721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.949296 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d13c36d11a4169526d13b4d0c228ea3') in 0.033170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.450724 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForDoroshenkoGame.prefab
-  artifactKey: Guid(b75b5121f31f9f34bbc1b9ad999cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForDoroshenkoGame.prefab using Guid(b75b5121f31f9f34bbc1b9ad999cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862cacc029c6d3c6353d2c534cc8186a') in 0.003566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.673654 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForDoroshenkoGame.prefab
-  artifactKey: Guid(b75b5121f31f9f34bbc1b9ad999cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForDoroshenkoGame.prefab using Guid(b75b5121f31f9f34bbc1b9ad999cb8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85618fecfa24bcdcc84638e1cb873fd') in 0.032089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.072382 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForTrubchikGame.prefab
-  artifactKey: Guid(c36ede78241120a44a46c9bdc14c8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForTrubchikGame.prefab using Guid(c36ede78241120a44a46c9bdc14c8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0293100ce16e2a8aa7f50674e8b8f4') in 0.003289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.177147 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForTrubchikGame.prefab
-  artifactKey: Guid(c36ede78241120a44a46c9bdc14c8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForTrubchikGame.prefab using Guid(c36ede78241120a44a46c9bdc14c8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951fd64f27c5f84c102bead8bb80f938') in 0.027336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.454218 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c7f71d7908c5f9ca7125d402abf5b') in 0.032342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.409401 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4e97c6d007556980210805ef7822ca') in 0.033526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.146385 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4ee262a05f53937b534357c9c769f1') in 0.030862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.155807 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3615f95e763de824d7df1fa8b5fb1ca') in 0.033665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.441711 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4821cb9a80d0205f0dd40c57609f40') in 0.030514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.207341 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ab1aadf55c210f9a28d142ad5fef1e') in 0.031957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.359295 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873cd419b16d8a0934f9a4c33df76144') in 0.030740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.546756 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
-  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d7939d7d8a119e9f83ea9ea7445237') in 0.031883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.476782 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428f1c4438f80f25bfeff57ad2df88ab') in 0.032478 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004279 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.244 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1245ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (979ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (152.6 KB). Loaded Objects now: 4108.
-Memory consumption went from 123.5 MB to 123.4 MB.
-Total: 3.560100 ms (FindLiveObjects: 0.334900 ms CreateObjectMapping: 0.354300 ms MarkObjects: 2.753500 ms  DeleteObjects: 0.116400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005479 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1197ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (942ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (440ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (151.2 KB). Loaded Objects now: 4123.
-Memory consumption went from 123.5 MB to 123.4 MB.
-Total: 4.061300 ms (FindLiveObjects: 0.345800 ms CreateObjectMapping: 0.293900 ms MarkObjects: 3.325600 ms  DeleteObjects: 0.095100 ms)
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.1 KB). Loaded Objects now: 4094.
+Memory consumption went from 123.5 MB to 123.3 MB.
+Total: 2.931300 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.146600 ms MarkObjects: 2.440800 ms  DeleteObjects: 0.092200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1078,71 +460,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.849520 seconds.
-  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab
-  artifactKey: Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForMatgorinGame.prefab using Guid(836bc8a02062c0b4c8b7959f1e527cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da93d496895264ce769217fdc79e99a4') in 0.080359 seconds 
+  Time since last request: 54.216882 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba4c6d51878189b6ccabe5b5bfcf40') in 0.076517 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005470 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1180ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (928ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (430ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (151.8 KB). Loaded Objects now: 4138.
-Memory consumption went from 123.6 MB to 123.4 MB.
-Total: 6.735100 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.398700 ms MarkObjects: 5.855700 ms  DeleteObjects: 0.145600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005298 seconds.
+Registered in 0.006052 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1151,40 +476,394 @@ Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
+- Completed reload, in  1.365 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1223ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1366ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (973ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
+			SetupTypeCache (376ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (448ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (494ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (293ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (151.2 KB). Loaded Objects now: 4153.
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.2 KB). Loaded Objects now: 4109.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 3.465900 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.196800 ms MarkObjects: 2.829400 ms  DeleteObjects: 0.123800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003881 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1238ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.1 KB). Loaded Objects now: 4124.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 3.901000 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.206900 ms MarkObjects: 3.294300 ms  DeleteObjects: 0.102400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 215.001756 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76cc8aacaf1ddf9ff38373dbfab3c23') in 0.082907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.087630 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831dd4bf1d4e5f746d6c882818c79b95') in 0.032899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.897127 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91565c384353c46505d2214299eb9437') in 0.033288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.485948 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145999db5918c4d3b3cc9747eebbfd5a') in 0.036371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.922300 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c058a044aa3517660430e829313726') in 0.033673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.460674 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dea06f53460b1e191988ff178e5158') in 0.036061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.887461 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4d4433e28f80054e94957bf0b0911d') in 0.032379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.702540 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914a602dcde22f1edb2f71b8b81bb2a8') in 0.031419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.595415 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3540724ed2945a9028c773d87b6966a1') in 0.036556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.439875 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a97cdc7d91aeddae0827a1ce646611') in 0.030956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.571408 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d16d7e5062699e5bb4597087270a1e') in 0.033757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.299407 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c2d385ecd7ca653b027a57bf581541') in 0.031595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.577800 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa809e8e18965d7881f1ee8547162ad') in 0.033761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.402113 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059153bb3d972c9ea019df770c4f33d5') in 0.032625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.051373 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4135798750823b3520fb8f7e35cb028c') in 0.035717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006836 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd922f1e4369e3957662495efd92f7c96') in 0.031895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.937803 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fa2ba0008e2acb7f1618c738da146e') in 0.032799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.835637 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22df6f287d58d92f2655fc8e88d50efa') in 0.033825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.985958 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8833f00c8f5ea48f56c3ab80ba925e73') in 0.037396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.551725 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbf9505316264949a7487f3554170bf') in 0.031224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.847162 seconds.
+  path: Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab
+  artifactKey: Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefab/Canvas/MiniGames/CanvasForYashinaGame.prefab using Guid(e781dc30e7c86ff43bf807a85af9d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d2870db07fa64236a3e6a14e690edd') in 0.032735 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003945 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (908ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.2 KB). Loaded Objects now: 4139.
 Memory consumption went from 123.6 MB to 123.4 MB.
-Total: 3.925000 ms (FindLiveObjects: 0.353300 ms CreateObjectMapping: 0.270600 ms MarkObjects: 3.175900 ms  DeleteObjects: 0.124000 ms)
+Total: 2.877600 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.181700 ms MarkObjects: 2.292700 ms  DeleteObjects: 0.132300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004669 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.1 KB). Loaded Objects now: 4154.
+Memory consumption went from 123.6 MB to 123.4 MB.
+Total: 3.361600 ms (FindLiveObjects: 0.327900 ms CreateObjectMapping: 0.223400 ms MarkObjects: 2.715700 ms  DeleteObjects: 0.093600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004317 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Diplom\Diploma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1273ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (151.3 KB). Loaded Objects now: 4169.
+Memory consumption went from 123.6 MB to 123.4 MB.
+Total: 3.026600 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.185600 ms MarkObjects: 2.469100 ms  DeleteObjects: 0.103500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

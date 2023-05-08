@@ -1831,7 +1831,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 250364345}
         m_TargetAssemblyTypeName: LevelSyntasis, Assembly-CSharp
         m_MethodName: ActivateGameLevel
         m_Mode: 1
@@ -3431,6 +3431,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1513259779039559447, guid: 16c7f0945ef82ec4f9ad2a207e693cd2, type: 3}
   m_PrefabInstance: {fileID: 1359424723}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &250364345 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2988957790672640996, guid: e781dc30e7c86ff43bf807a85af9d14b, type: 3}
+  m_PrefabInstance: {fileID: 752313243}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b967765da0002c4aba4b44295493569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &271482806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8246,6 +8257,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3327143148906901777, guid: e781dc30e7c86ff43bf807a85af9d14b, type: 3}
+      propertyPath: chooseSpells
+      value: 
+      objectReference: {fileID: 1182477677}
     - target: {fileID: 3764355875661037409, guid: e781dc30e7c86ff43bf807a85af9d14b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -8254,6 +8269,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7992515188641693279, guid: e781dc30e7c86ff43bf807a85af9d14b, type: 3}
+      propertyPath: chooseSpells
+      value: 
+      objectReference: {fileID: 1182477677}
+    - target: {fileID: 8994196533475279155, guid: e781dc30e7c86ff43bf807a85af9d14b, type: 3}
+      propertyPath: chooseSpells
+      value: 
+      objectReference: {fileID: 1182477677}
+    - target: {fileID: 9199207698262762572, guid: e781dc30e7c86ff43bf807a85af9d14b, type: 3}
+      propertyPath: chooseSpells
+      value: 
+      objectReference: {fileID: 1182477677}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e781dc30e7c86ff43bf807a85af9d14b, type: 3}
 --- !u!1001 &758916166

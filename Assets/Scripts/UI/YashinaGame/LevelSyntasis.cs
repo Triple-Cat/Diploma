@@ -8,7 +8,11 @@ public class LevelSyntasis : MonoBehaviour
     [SerializeField] GameObject[] levelHolder;
     public void ActivateGameLevel()
     {
-        levelHolder[gameLevel].SetActive(true);
+        if(gameLevel != 0)
+        {
+            levelHolder[gameLevel-1].SetActive(false);
+        }
+        levelHolder[gameLevel].SetActive(true);       
     }
     public void GameLevelIncrease()
     {
