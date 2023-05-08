@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\DialogueSystem\TypeWriterEffect.cs" />
     <Compile Include="Assets\Scripts\UI\MatgorinGame\CheckUIElementOverlap.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\ResponseHandler.cs" />
+    <Compile Include="Assets\Scripts\UI\DoroshenkoGame\CaesarGameScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMPro.cginc" />

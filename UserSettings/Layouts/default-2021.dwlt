@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 76
+  controlID: 19
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 77
+  controlID: 25
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: SimulatorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -193,12 +193,12 @@ MonoBehaviour:
     height: 688
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 13}
   - {fileID: 11}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -342,23 +342,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ac5f0000
-      m_LastClickedID: 24492
-      m_ExpandedIDs: 28f6ffffa4f6ffff16fbffff8a5e00009e5e00003e5f000072600000
+      m_SelectedIDs: f2f8ffff
+      m_LastClickedID: -1806
+      m_ExpandedIDs: ceaaffffc6adfffff2f8fffffef8ffff12f9ffff16f9ffff16fbffff405f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: CanvasForDoroshenkoGame
-        m_OriginalName: CanvasForDoroshenkoGame
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 24492
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -626,9 +626,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1136.6931, y: 460.21432, z: -16.34021}
+    m_Target: {x: 1480, y: 994.4167, z: 0}
     speed: 2
-    m_Value: {x: 1136.6931, y: 460.21432, z: -16.34022}
+    m_Value: {x: 1480, y: 994.4167, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -675,13 +675,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03180474, y: -0.010173372, z: 0.00045450046, w: 0.99967575}
+    m_Target: {x: -0.041690663, y: -0.010176798, z: -0.00038796559, w: 0.99931234}
     speed: 2
-    m_Value: {x: 0.03179732, y: -0.010170998, z: 0.0004543944, w: 0.99944246}
+    m_Value: {x: -0.041680932, y: -0.010174423, z: -0.00038787504, w: 0.99907917}
   m_Size:
-    m_Target: 10
+    m_Target: 1122.3501
     speed: 2
-    m_Value: 10.000052
+    m_Value: 1122.3501
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -747,22 +747,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\Diplom\Diploma
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 166}
+    scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 22690000
     m_LastClickedID: 26914
-    m_ExpandedIDs: 000000002069000022690000246900002669000028690000346900004a69000000ca9a3b
+    m_ExpandedIDs: 00000000226900002469000026690000286900002a69000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -790,7 +790,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002069000022690000246900002669000028690000
+    m_ExpandedIDs: 00000000226900002469000026690000286900002a690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -3664,6 +3664,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 114fdb9b5a2d6d54ca3b00004132b516, type: 3}
   m_PrefabInstance: {fileID: 290978003}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &315997716 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8274271949055475587, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+  m_PrefabInstance: {fileID: 336106241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68cdb3ac0863ae4db2327c37ac6339d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &319247158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4001,6 +4012,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1956854025237695027, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+      propertyPath: m_text
+      value: "\u0412\u044B \u043D\u0435\u0432\u0435\u0440\u043D\u043E \u0432\u044B\u043F\u043E\u043B\u043D\u0438\u043B\u0438
+        \u0437\u0430\u0434\u0430\u043D\u0438\u0435\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5198371733351622340, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4104,6 +4120,18 @@ PrefabInstance:
     - target: {fileID: 5590459615375161147, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274271949055475587, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+      propertyPath: chooseSpells
+      value: 
+      objectReference: {fileID: 1182477677}
+    - target: {fileID: 8741052762544451405, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 315997716}
+    - target: {fileID: 8741052762544451405, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LeftUserText
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
@@ -10293,6 +10321,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a75b9f68251c8a45bb3c91121252932, type: 3}
+--- !u!1 &1012196575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1574633668227663998, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+  m_PrefabInstance: {fileID: 336106241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1012196577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012196575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 315997716}
+        m_TargetAssemblyTypeName: CaesarGameScript, Assembly-CSharp
+        m_MethodName: CheckAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1023265620
 PrefabInstance:
   m_ObjectHideFlags: 0
