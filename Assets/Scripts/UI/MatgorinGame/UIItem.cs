@@ -8,7 +8,8 @@ public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
     [SerializeField] private CanvasGroup _canvasGroup;
     [SerializeField] private Canvas m_canvas;
     [SerializeField] private RectTransform m_RectTransform;
-    
+    [SerializeField] public int indexSwotBar;
+
     private void Start()
     {
         _canvasGroup = GetComponent<CanvasGroup>();
@@ -32,7 +33,6 @@ public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
     {
         transform.localPosition = Vector3.zero;
         _canvasGroup.blocksRaycasts = true;
-
     }
 
 }

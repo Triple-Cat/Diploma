@@ -711,6 +711,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 4
 --- !u!225 &2642950353910763013
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1592,6 +1593,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 1
 --- !u!225 &2642950354105133379
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2012,6 +2014,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 2
 --- !u!225 &2642950354165732104
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2195,6 +2198,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 3
 --- !u!225 &2642950354199458896
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2992,6 +2996,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 2
 --- !u!225 &2642950354556961112
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3175,6 +3180,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 1
 --- !u!225 &2642950354705287459
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5809,20 +5815,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9f12020bc48a5409a9d5ce6bef09e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uIItem: {fileID: 0}
   tipsCharacteristicBar: {fileID: 0}
   tipsSWOTBar: {fileID: 0}
   tipsCorrectly: {fileID: 0}
   miniGameSWOT: {fileID: 2642950353757018419}
   chooseSpells: {fileID: 0}
   characteristicBar: {fileID: 2642950354317265603}
+  CBarIndex: 0
   characteristicBarCount: 0
   SBar: {fileID: 2642950355185008519}
+  SBarIndex: 1
   SBarCount: 0
   WBar: {fileID: 2642950355072399969}
+  WBarIndex: 2
   WBarCount: 0
   OBar: {fileID: 2642950354965485492}
+  OBarIndex: 3
   OBarCount: 0
   TBar: {fileID: 2642950354915681221}
+  TBarIndex: 4
   TBarCount: 0
   currentCountBar: 0
 --- !u!1 &2642950355292280774
@@ -5881,6 +5893,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 1
 --- !u!225 &2642950355292280377
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -7191,6 +7204,7 @@ MonoBehaviour:
   _canvasGroup: {fileID: 0}
   m_canvas: {fileID: 0}
   m_RectTransform: {fileID: 0}
+  indexSwotBar: 3
 --- !u!225 &2642950355665372866
 CanvasGroup:
   m_ObjectHideFlags: 0
