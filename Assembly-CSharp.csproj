@@ -86,6 +86,8 @@
     <Compile Include="Assets\Resourses\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\Other\ItemScriotableObject.cs" />
     <Compile Include="Assets\Scripts\Player\Control\PlayerMechanics.cs" />
+    <Compile Include="Assets\Scripts\UI\YashinaGame\MoveColorButton.cs" />
+    <Compile Include="Assets\Scripts\UI\MatgorinGame\Checker.cs" />
     <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SynthesisofPotions.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueResponseEvents.cs" />
@@ -93,7 +95,6 @@
     <Compile Include="Assets\Scripts\DialogueSystem\TypeWriterEffect.cs" />
     <Compile Include="Assets\Scripts\UI\MatgorinGame\CheckUIElementOverlap.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\ResponseHandler.cs" />
-    <Compile Include="Assets\Scripts\UI\YashinaGame\MoveColorButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resourses\TextMesh Pro\Shaders\TMPro.cginc" />

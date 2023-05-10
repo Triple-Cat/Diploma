@@ -10,7 +10,6 @@ public class UISlot : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         var otherItemTransform = eventData.pointerDrag.transform;
-
         if (!isContain)
         {
             otherItemTransform.SetParent(transform);
@@ -20,7 +19,6 @@ public class UISlot : MonoBehaviour, IDropHandler
         {
             otherItemTransform.localPosition = Vector3.zero;
             isContain = false;
-
         }
     }
 }

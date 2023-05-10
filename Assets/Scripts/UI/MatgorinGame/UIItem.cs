@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler 
+public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    [SerializeField] CheckUIElementOverlap checkUIElementOverlap;
     [SerializeField] private CanvasGroup _canvasGroup;
     [SerializeField] private Canvas m_canvas;
     [SerializeField] private RectTransform m_RectTransform;
@@ -32,6 +33,7 @@ public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
     public void OnEndDrag(PointerEventData eventData)
     {
         transform.localPosition = Vector3.zero;
+        
         _canvasGroup.blocksRaycasts = true;
     }
 

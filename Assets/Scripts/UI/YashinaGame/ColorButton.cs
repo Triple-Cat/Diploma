@@ -70,7 +70,6 @@ public class ColorButton : MonoBehaviour
         for (int i = 0; i < amountColorButton; i++)
         {
             moveColorButton[i].ButtonMove();
-            Debug.Log(moveColorButton[i] + " Двигаюсь");
         }
     }
     private void UnPressedButton()
