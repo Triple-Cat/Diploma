@@ -5,13 +5,13 @@ using TMPro;
 
 public class TypeWriterEffect : MonoBehaviour
 {
-    [SerializeField] private float typeWriterSpeed = 50f;
+    [SerializeField] private float typeWriterSpeed = 400f;
 
     public bool isRunning { get; private set; }
     private readonly List<Punctuation> punctuations = new List<Punctuation>()
     {
-        new Punctuation(new HashSet<char>(){'.','!','?'}, 0.6f),
-        new Punctuation(new HashSet<char>(){',',';',':'}, 0.6f)       
+        new Punctuation(new HashSet<char>(){'.','!','?'}, 0.2f),
+        new Punctuation(new HashSet<char>(){',',';',':'}, 0.1f)       
     };
     private Coroutine typingCoroutine;
     public void Run(string textToType,TMP_Text textLabel)

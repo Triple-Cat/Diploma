@@ -99,11 +99,16 @@ public class CustomCharacterController : MonoBehaviour
 
         if (dialogueUI.isOpen) return;
 
+        
+
+    }
+
+    public void DialogueStart()
+    {
         if (Interactable != null)
         {
             Interactable.Interact(this);
         }
-
     }
 
     // Update is called once per frame

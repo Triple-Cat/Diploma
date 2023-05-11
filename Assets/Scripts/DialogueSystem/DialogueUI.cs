@@ -8,6 +8,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private GameObject dialogueBox;
 
     public bool isOpen { get; private set; }
+    public bool isPressed = false;
 
     private ResponseHandler responseHandler;
     private TypeWriterEffect typeWriterEffect;
@@ -44,7 +45,7 @@ public class DialogueUI : MonoBehaviour
             if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
             yield return null;
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+            yield return new WaitForSeconds(1);
         }
 
         if (dialogueObject.HasResponses)
@@ -56,6 +57,8 @@ public class DialogueUI : MonoBehaviour
             CloseDialogueBox();
         }
     }
+    
+    
     private IEnumerator RunTypingEffect(string dialogue)
     {
         typeWriterEffect.Run(dialogue, textlabel);
@@ -74,5 +77,9 @@ public class DialogueUI : MonoBehaviour
         isOpen = false;
         dialogueBox.SetActive(false);
         textlabel.text = string.Empty;
+    }
+    public void PressTheButton()
+    {
+        isPressed = true;
     }
 }
