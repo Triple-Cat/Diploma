@@ -18,7 +18,6 @@ public class UISlot : MonoBehaviour, IDropHandler
         else if (isContain)
         {
             otherItemTransform.localPosition = Vector3.zero;
-            isContain = false;
         }
     }
 }

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SpellsCanvas : MonoBehaviour
 {
     [SerializeField] PlayerMechanics playerMechanics;
+    [SerializeField] GameObject canvasForControl; 
 
     [SerializeField] GameObject spellButtons;
 
@@ -106,4 +107,15 @@ public class SpellsCanvas : MonoBehaviour
         chooseSpells.gameObject.SetActive(false);
         SpellButtonsDeactivate();
     }
+
+    public void ControlCanvasDeactivate()
+    {
+        canvasForControl.SetActive(false);
+    }
+
+    public void ControlCanvasActivate()
+    {
+        canvasForControl.SetActive(true);
+    }
+
 }

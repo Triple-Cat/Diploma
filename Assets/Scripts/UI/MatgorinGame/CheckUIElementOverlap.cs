@@ -4,82 +4,43 @@ using UnityEngine;
 
 public class CheckUIElementOverlap : MonoBehaviour
 {
-    public UIItem[] uIItem;
-
-    public GameObject tipsUncorrectly;
-    public GameObject tipsCorrectly;
+    [SerializeField] Checker checker;
 
     [SerializeField] string barTag;
     public int currentIndexBar;
+    [SerializeField] int needPointsToComplete;
 
-    [SerializeField] Collider2D currentBar;
-    [SerializeField] private int barIndex;
-    [SerializeField] private int barCount;
+    [SerializeField] private string currentName;
 
     public int currentCountBar;
 
-    private void Start()
+    void OnTriggerEnter2D(Collider2D collider2D)
     {
-        currentBar = gameObject.GetComponent<Collider2D>(); 
-    }
-
-    private void Update()
-    {
-    }
-
-    private void CheckOverlap(Transform parent)
-    {
-        int childCount = parent.childCount;
-
-        for (int i = 0; i < childCount; i++)
+        if (collider2D.gameObject.name == barTag)
         {
-            Collider2D childCollider = parent.GetChild(i).GetComponent<Collider2D>();
-
-            if (childCollider != null && currentBar.bounds.Intersects(childCollider.bounds))
-            {
-                currentCountBar++;
-            }
-
-            CheckOverlap(parent.GetChild(i));
+            currentCountBar++;
+        }
+    }
+    void OnTriggerExit2D(Collider2D collider2D)
+    {
+        if (collider2D.gameObject.name == barTag)
+        {
+            currentCountBar--;
         }
     }
 
-
-    public void GetAnswerForCharactertisticBar()
-    {
-        CheckOverlap(currentBar.transform);
-
-       
-        CheckAnswerForOverlap();
-    }
-
-    private void CheckAnswerForOverlap()
-    {
-
-        GetAnswer();
-    }
-
-    private void GetAnswer()
-    {
-        if (true)
+    public void AnswerCheck()
+    {       
+        if (currentCountBar == needPointsToComplete)
         {
-            tipsUncorrectly.SetActive(true);
-            Invoke("InvTipsSWOTBar", 2f);
-        }  
+            checker.sumAnswer++;
+        }
         else
         {
-            tipsCorrectly.SetActive(true);
-            Invoke("InvTipsCorrectly", 2f);
+            checker.sumAnswer = 0;
         }
     }
- 
 
-    private void InvTipsSWOTBar()
-    {
-        tipsUncorrectly.SetActive(false);
-    }
-    private void InvTipsCorrectly()
-    {
-        tipsCorrectly.SetActive(false);
-    }
+
+
 }

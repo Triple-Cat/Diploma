@@ -9,7 +9,8 @@ public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
     [SerializeField] private CanvasGroup _canvasGroup;
     [SerializeField] private Canvas m_canvas;
     [SerializeField] private RectTransform m_RectTransform;
-    [SerializeField] public int indexSwotBar;
+
+    [SerializeField] private int m_IndexNumber;
 
     private void Start()
     {
@@ -36,5 +37,4 @@ public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
         
         _canvasGroup.blocksRaycasts = true;
     }
-
 }
