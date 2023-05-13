@@ -5,19 +5,36 @@ using UnityEngine.EventSystems;
 
 public class UISlot : MonoBehaviour, IDropHandler
 {
-    private bool isContain = false;
+    [SerializeField] private bool isContain = false;
 
+
+    //OnDropRaycast 
     public void OnDrop(PointerEventData eventData)
     {
+        CheckChild();
+
         var otherItemTransform = eventData.pointerDrag.transform;
         if (!isContain)
         {
             otherItemTransform.SetParent(transform);
-            isContain = true;
         }
         else if (isContain)
         {
             otherItemTransform.localPosition = Vector3.zero;
+        }
+        
+    }
+
+
+    public void CheckChild()
+    {
+        if (this.transform.childCount == 0)
+        {
+            isContain = false;
+        }
+        else if (this.transform.childCount != 0)
+        {
+            isContain = true;
         }
     }
 }

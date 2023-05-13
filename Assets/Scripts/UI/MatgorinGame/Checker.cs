@@ -8,6 +8,8 @@ public class Checker : MonoBehaviour
 
     [SerializeField] GameObject tipsUncorrectly;
     [SerializeField] GameObject tipsCorrectly;
+    [SerializeField] GameObject canvasMiniGame;
+    [SerializeField] GameObject canvasConrtrol;
 
     public void Result()
     {
@@ -19,16 +21,18 @@ public class Checker : MonoBehaviour
         else
         {
             tipsUncorrectly.SetActive(true);
-            Invoke("InvTipsSWOTBar", 2f);
+            Invoke("InvTipsUncorrectly", 2f);
         }
     }
 
-    private void InvTipsSWOTBar()
+    private void InvTipsUncorrectly()
     {
         tipsUncorrectly.SetActive(false);
     }
     private void InvTipsCorrectly()
     {
         tipsCorrectly.SetActive(false);
+        canvasMiniGame.SetActive(false);
+        canvasConrtrol.SetActive(true);
     }
 }

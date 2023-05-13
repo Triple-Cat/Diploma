@@ -4,10 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - S
-  - W
-  - O
-  - T
+  - SWOT
   layers:
   - Default
   - TransparentFX
