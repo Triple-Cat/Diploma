@@ -5,15 +5,16 @@ using UnityEngine;
 public class Checker : MonoBehaviour
 {
     public int sumAnswer;
+    public int needSumAnswer;
 
     [SerializeField] GameObject tipsUncorrectly;
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject canvasMiniGame;
-    [SerializeField] GameObject canvasConrtrol;
+    [SerializeField] GameObject canvasControl;
 
     public void Result()
     {
-        if (sumAnswer == 4)
+        if (sumAnswer == needSumAnswer)
         {
             tipsCorrectly.SetActive(true);
             Invoke("InvTipsCorrectly", 2f);
@@ -33,6 +34,6 @@ public class Checker : MonoBehaviour
     {
         tipsCorrectly.SetActive(false);
         canvasMiniGame.SetActive(false);
-        canvasConrtrol.SetActive(true);
+        canvasControl.SetActive(true);
     }
 }

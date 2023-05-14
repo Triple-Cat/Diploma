@@ -5,12 +5,8 @@ using UnityEngine;
 public class CheckUIElementOverlap : MonoBehaviour
 {
     [SerializeField] Checker checker;
-
     [SerializeField] string barTag;
-    public int currentIndexBar;
     [SerializeField] int needPointsToComplete;
-
-    [SerializeField] private string currentName;
 
     public int currentCountBar;
 
