@@ -6,6 +6,7 @@ public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text textlabel;
     [SerializeField] private GameObject dialogueBox;
+    [SerializeField] private GameObject CanvasForControl;
 
     public bool isOpen { get; private set; }
     public bool isPressed = false;
@@ -23,6 +24,7 @@ public class DialogueUI : MonoBehaviour
     public void ShowDialogue(DialogueObject dialogueObject)
     {
         isOpen = true;
+        CanvasForControl.SetActive(false);
         dialogueBox.SetActive(true);
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
@@ -77,6 +79,7 @@ public class DialogueUI : MonoBehaviour
         isOpen = false;
         dialogueBox.SetActive(false);
         textlabel.text = string.Empty;
+        CanvasForControl.SetActive(true);
     }
     public void PressTheButton()
     {

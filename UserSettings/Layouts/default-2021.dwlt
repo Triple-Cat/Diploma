@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 43
+  controlID: 10071
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 10072
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 377
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -342,9 +342,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: aee8ffff
-      m_LastClickedID: -5970
-      m_ExpandedIDs: 92e8ffffbee8ffffc8e8ffff16fbffff9a620000aa630000
+      m_SelectedIDs: 426e0000
+      m_LastClickedID: 28226
+      m_ExpandedIDs: 2af9ffff3e6a0000366b0000f26e00007c6f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -626,9 +626,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1400.428, y: 417.97247, z: -42.88092}
+    m_Target: {x: 1136.6931, y: 460.21432, z: 83.65979}
     speed: 2
-    m_Value: {x: 1400.428, y: 417.97247, z: -42.88092}
+    m_Value: {x: 1136.6931, y: 460.21432, z: 83.65979}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -675,13 +675,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.049762838, y: -0.023056312, z: 0.0020149497, w: 0.9989244}
+    m_Target: {x: 0.08265138, y: -0.9167473, z: 0.28116727, w: 0.2730502}
     speed: 2
-    m_Value: {x: 0.04974141, y: -0.023046382, z: 0.002014082, w: 0.9984942}
+    m_Value: {x: 0.08261552, y: -0.91634953, z: 0.2810453, w: 0.27293172}
   m_Size:
-    m_Target: 924.28656
+    m_Target: 22.119343
     speed: 2
-    m_Value: 924.28656
+    m_Value: 22.119343
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -747,22 +747,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/UI/TrubchikGame
+    - Assets/Scripts/Player/Control
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts/UI/TrubchikGame
+  - Assets/Scripts/Player/Control
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: D:\Diplom\Diploma
+  m_LastProjectPath: C:\Users\h4sk1\Documents\GitHub\Diploma\Diploma
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 122}
-    m_SelectedIDs: 96730000
-    m_LastClickedID: 29590
-    m_ExpandedIDs: 00000000407300004273000044730000467300004873000000ca9a3b
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: a87e0000
+    m_LastClickedID: 32424
+    m_ExpandedIDs: 00000000487e00004a7e00004c7e00004e7e0000507e00005c7e00005e7e00006a7e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -790,7 +790,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004073000042730000447300004673000048730000
+    m_ExpandedIDs: 00000000487e00004a7e00004c7e00004e7e0000507e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
