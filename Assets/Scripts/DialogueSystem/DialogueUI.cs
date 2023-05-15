@@ -7,6 +7,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TMP_Text textlabel;
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private GameObject CanvasForControl;
+    [SerializeField] private GameObject SkipButton;
 
     public bool isOpen { get; private set; }
     public bool isPressed = false;
@@ -25,6 +26,7 @@ public class DialogueUI : MonoBehaviour
     {
         isOpen = true;
         CanvasForControl.SetActive(false);
+        SkipButton.SetActive(true);
         dialogueBox.SetActive(true);
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
@@ -68,16 +70,19 @@ public class DialogueUI : MonoBehaviour
         {
             yield return null;
 
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                typeWriterEffect.Stop();
-            }
+       
         }
+    }
+
+    public void SkipTyping()
+    {
+        typeWriterEffect.Stop();
     }
     public void CloseDialogueBox()
     {
         isOpen = false;
         dialogueBox.SetActive(false);
+        SkipButton.SetActive(false);
         textlabel.text = string.Empty;
         CanvasForControl.SetActive(true);
     }

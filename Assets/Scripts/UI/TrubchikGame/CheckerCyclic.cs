@@ -11,6 +11,8 @@ public class CheckerCyclic : MonoBehaviour
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject canvasMiniGame;
     [SerializeField] GameObject canvasControl;
+    [SerializeField] GameObject BeforeDialogueObject;
+    [SerializeField] GameObject AfterDialogueObject;
 
     public void Result()
     {
@@ -35,5 +37,7 @@ public class CheckerCyclic : MonoBehaviour
         tipsCorrectly.SetActive(false);
         canvasMiniGame.SetActive(false);
         canvasControl.SetActive(true);
+        BeforeDialogueObject.SetActive(false);
+        AfterDialogueObject.SetActive(true);
     }
 }

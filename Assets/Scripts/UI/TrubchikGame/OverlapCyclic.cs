@@ -9,6 +9,9 @@ public class OverlapCyclic : MonoBehaviour
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject canvasMiniGame;
     [SerializeField] GameObject canvasControl;
+    [SerializeField] GameObject BeforeDialogueObject;
+    [SerializeField] GameObject AfterDialogueObject;
+
 
     private UIItem currentElement;
     [SerializeField] string barTag;
@@ -57,6 +60,8 @@ public class OverlapCyclic : MonoBehaviour
         tipsCorrectly.SetActive(false);
         canvasMiniGame.SetActive(false);
         canvasControl.SetActive(true);
+        BeforeDialogueObject.SetActive(false);
+        AfterDialogueObject.SetActive(true);
     }
 
 }

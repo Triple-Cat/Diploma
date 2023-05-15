@@ -10,6 +10,8 @@ public class CaesarGameScript : MonoBehaviour
     [SerializeField] string[] cipherText;
     [SerializeField] int currentText;
 
+    [SerializeField] GameObject BeforeDialogueObject;
+    [SerializeField] GameObject AfterDialogueObject;
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject tipsUncorrectly;
 
@@ -89,10 +91,14 @@ public class CaesarGameScript : MonoBehaviour
         tipsCorrectly.SetActive(false);
         canvasSyntesisGame.SetActive(false);
         chooseSpells.SetActive(true);
+        BeforeDialogueObject.SetActive(false);
+        AfterDialogueObject.SetActive(true);
     }
 
     void GameLose()
     {
         tipsUncorrectly.SetActive(false);
+        BeforeDialogueObject.SetActive(false);
+        AfterDialogueObject.SetActive(true);
     }
 }

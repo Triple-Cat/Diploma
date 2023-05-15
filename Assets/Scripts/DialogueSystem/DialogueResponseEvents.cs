@@ -5,6 +5,7 @@ public class DialogueResponseEvents : MonoBehaviour
 {
     [SerializeField] private DialogueObject dialogueObject;
     [SerializeField] private ResponseEvent[] events;
+    [SerializeField] private GameObject MiniGame;
 
     public DialogueObject DialogueObject => dialogueObject;
 
@@ -36,5 +37,10 @@ public class DialogueResponseEvents : MonoBehaviour
             }
             events[i] = new ResponseEvent() { name = response.ResponseText };
         }
+    }
+    public void MiniGameActivator(GameObject gameObject)
+    {
+        this.MiniGame = gameObject;
+        gameObject.SetActive(true);
     }
 }
