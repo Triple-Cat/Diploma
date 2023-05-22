@@ -6,6 +6,21 @@ public class LevelSyntasis : MonoBehaviour
 {
     [SerializeField] int gameLevel;
     [SerializeField] GameObject[] levelHolder;
+    [SerializeField] GameObject canvasMiniGame;
+    [SerializeField] GameObject canvasControl;
+
+    void Update()
+    {
+        if (canvasMiniGame == true)
+        {
+            canvasControl.SetActive(false);
+        }
+        else
+        {
+            canvasControl.SetActive(true);
+        }
+    }
+
     public void ActivateGameLevel()
     {
         if(gameLevel != 0)

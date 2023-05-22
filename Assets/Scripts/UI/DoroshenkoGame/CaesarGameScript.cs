@@ -14,6 +14,8 @@ public class CaesarGameScript : MonoBehaviour
     [SerializeField] GameObject AfterDialogueObject;
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject tipsUncorrectly;
+    [SerializeField] GameObject canvasMiniGame;
+    [SerializeField] GameObject canvasControl;
 
     [SerializeReference] GameObject canvasSyntesisGame;
     [SerializeField] public GameObject chooseSpells;
@@ -27,7 +29,14 @@ public class CaesarGameScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (canvasMiniGame == true)
+        {
+            canvasControl.SetActive(false);
+        }
+        else
+        {
+            canvasControl.SetActive(true);
+        }
     }
     
     public void InitializeCipherTextRight()

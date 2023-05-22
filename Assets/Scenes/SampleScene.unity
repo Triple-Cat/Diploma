@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414735, b: 0.1210785, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7031,6 +7031,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!114 &320886542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7116,7 +7117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320886539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.897, y: 1.66, z: 17.5}
+  m_LocalPosition: {x: -68.12, y: 1.66, z: 3.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7579,6 +7580,14 @@ PrefabInstance:
       propertyPath: chooseSpells
       value: 
       objectReference: {fileID: 1182477677}
+    - target: {fileID: 8274271949055475587, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+      propertyPath: canvasControl
+      value: 
+      objectReference: {fileID: 559074600}
+    - target: {fileID: 8274271949055475587, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
+      propertyPath: canvasMiniGame
+      value: 
+      objectReference: {fileID: 1596799311}
     - target: {fileID: 8274271949055475587, guid: b75b5121f31f9f34bbc1b9ad999cb8d1, type: 3}
       propertyPath: AfterDialogueObject
       value: 
@@ -12303,6 +12312,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!114 &550984560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20630,11 +20640,24 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 902266383}
+          m_TargetAssemblyTypeName: DialogueResponseEvents, Assembly-CSharp
+          m_MethodName: CanvasControlDisabler
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 559074600}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - name: "\u041D\u0435\u0442"
     onPickedResponse:
       m_PersistentCalls:
         m_Calls: []
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!114 &902266384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21641,7 +21664,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.37, y: 2.5224872, z: -31.009378}
+  m_LocalPosition: {x: -69.84, y: 2.5224872, z: -15.249379}
   m_LocalScale: {x: 1, y: 0.49999997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24403,6 +24426,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!114 &1077622124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27812,6 +27836,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!114 &1180563241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27897,7 +27922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180563238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.75, y: 1.66, z: 23.21}
+  m_LocalPosition: {x: -79.66, y: 1.66, z: 6.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30851,7 +30876,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318139551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.37, y: 2.25, z: -31.26}
+  m_LocalPosition: {x: -69.84, y: 2.25, z: -15.5}
   m_LocalScale: {x: 0.5606734, y: 0.5606734, z: 0.5606734}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -34519,7 +34544,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429789284}
   m_LocalRotation: {x: 0.001783218, y: -0.0039791516, z: 0.000007095762, w: 0.9999905}
-  m_LocalPosition: {x: -70.37, y: 2.5224872, z: -31.009378}
+  m_LocalPosition: {x: -69.84, y: 2.5224872, z: -15.249379}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41043,6 +41068,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!114 &1728305165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44560,6 +44586,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!114 &1870938792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44645,7 +44672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870938789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -98.51, y: 1.66, z: -20.71}
+  m_LocalPosition: {x: -69.24, y: 1.66, z: -26.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49028,6 +49055,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   MiniGame: {fileID: 0}
+  CanvasControl: {fileID: 0}
 --- !u!135 &2063181243
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49060,7 +49088,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2063691626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52189,6 +52217,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6153015280254985174, guid: 837ec910b45292844955b086b296ba1a, type: 3}
+      propertyPath: canvasControl
+      value: 
+      objectReference: {fileID: 559074600}
+    - target: {fileID: 6153015280254985174, guid: 837ec910b45292844955b086b296ba1a, type: 3}
+      propertyPath: canvasMiniGame
+      value: 
+      objectReference: {fileID: 171154837}
     - target: {fileID: 6153015280626122992, guid: 837ec910b45292844955b086b296ba1a, type: 3}
       propertyPath: chooseSpells
       value: 

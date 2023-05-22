@@ -14,6 +14,17 @@ public class CheckerCyclic : MonoBehaviour
     [SerializeField] GameObject BeforeDialogueObject;
     [SerializeField] GameObject AfterDialogueObject;
 
+    void Update()
+    {
+        if (canvasMiniGame == true)
+        {
+            canvasControl.SetActive(false);
+        }
+        else
+        {
+            canvasControl.SetActive(true);
+        }
+    }
     public void Result()
     {
         if (sumAnswer == needSumAnswer)

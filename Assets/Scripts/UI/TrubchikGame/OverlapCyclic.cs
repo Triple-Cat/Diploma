@@ -19,6 +19,18 @@ public class OverlapCyclic : MonoBehaviour
 
     public int currentCountBar;
 
+    void Update()
+    {
+        if (canvasMiniGame == true)
+        {
+            canvasControl.SetActive(false);
+        }
+        else
+        {
+            canvasControl.SetActive(true);
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D collider2D)
     {
         var uIItem = collider2D.gameObject.GetComponent<UIItem>();
