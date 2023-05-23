@@ -5,9 +5,12 @@ using UnityEngine;
 public class LevelSyntasis : MonoBehaviour
 {
     [SerializeField] int gameLevel;
+    int countLevels = 4;
     [SerializeField] GameObject[] levelHolder;
     [SerializeField] GameObject canvasMiniGame;
     [SerializeField] GameObject canvasControl;
+    [SerializeField] GameObject BeforeDialogueObject;
+    [SerializeField] GameObject AfterDialogueObject;
 
     void Update()
     {
@@ -23,12 +26,19 @@ public class LevelSyntasis : MonoBehaviour
 
     public void ActivateGameLevel()
     {
-        if(gameLevel != 0)
+        if (gameLevel == countLevels)
         {
-            levelHolder[gameLevel-1].SetActive(false);
+            BeforeDialogueObject.SetActive(false);
+            AfterDialogueObject.SetActive(true);
         }
-        levelHolder[gameLevel].SetActive(true);       
+
+        if (gameLevel != 0)
+        {
+            levelHolder[gameLevel - 1].SetActive(false);
+        }
+        levelHolder[gameLevel].SetActive(true);
     }
+
     public void GameLevelIncrease()
     {
         gameLevel++;

@@ -45,9 +45,6 @@ public class ColorButton : MonoBehaviour
     {
         tipsCorrectly.SetActive(false);
         levelSyntasis.ActivateGameLevel();
-        //canvasSyntesisGame.SetActive(false);
-        //chooseSpells.SetActive(true);
-
     }
 
     void GameLose()

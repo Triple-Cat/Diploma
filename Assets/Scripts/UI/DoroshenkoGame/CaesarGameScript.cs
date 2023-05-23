@@ -9,62 +9,36 @@ public class CaesarGameScript : MonoBehaviour
     [SerializeField] public TextMeshProUGUI userText;
     [SerializeField] string[] cipherText;
     [SerializeField] int currentText;
+    [SerializeField] string userCurrentText;
+    [SerializeField] LevelSyntasis levelSyntasis;
 
-    [SerializeField] GameObject BeforeDialogueObject;
-    [SerializeField] GameObject AfterDialogueObject;
+
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject tipsUncorrectly;
-    [SerializeField] GameObject canvasMiniGame;
-    [SerializeField] GameObject canvasControl;
 
-    [SerializeReference] GameObject canvasSyntesisGame;
-    [SerializeField] public GameObject chooseSpells;
+    [SerializeField] GameObject attackButtons;
+    [SerializeField] GameObject leftButton;
+    [SerializeField] GameObject rightButton;
 
-    // Start is called before the first frame update
+    [SerializeField] Button buttonInteractable;
+
+
     void Awake()
     {
         userText.text = cipherText[currentText];
+        attackButtons.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (canvasMiniGame == true)
+        if (userText.text == userCurrentText)
         {
-            canvasControl.SetActive(false);
-        }
-        else
-        {
-            canvasControl.SetActive(true);
+            attackButtons.SetActive(true);
+            leftButton.SetActive(false);
+            rightButton.SetActive(false);
         }
     }
     
-    public void InitializeCipherTextRight()
-    {
-        cipherText[0] = "Сообщение пользователя";
-        cipherText[1] = "Фссдьзрлз тсояксегхзов";
-        cipherText[2] = "Чффжякуок хфсвнфзёшксе";
-        cipherText[3] = "Ъччйвнцсн шчферчкиынфз";
-        cipherText[4] = "Эъъмерщфр ыъчзуънлюрчк";
-        cipherText[5] = "Аээпзуьчу юэъкцэробуън";
-        cipherText[6] = "Гааткцяъц баэнщаусдцэр";
-        cipherText[7] = "Ёггхнщвэщ дгарьгцфжщау";
-        cipherText[8] = "Иёёшрьеаь жёгуяёщчйьгц";
-        cipherText[9] = "Лииыуязгя йиёцвиьъмяёщ";
-    }
-    public void InitializeCipherTextLeft()
-    {
-        cipherText[0] = "Сообщение пользователя";
-        cipherText[1] = "Оллюцвкёв млищеляэпвиь";
-        cipherText[2] = "Лииыуязгя йиёцвиьъмяёщ";
-        cipherText[3] = "Иёёшрьеаь жёгуяёщчйьгц";
-        cipherText[4] = "Ёггхнщвэщ дгарьгцфжщау";
-        cipherText[5] = "Гааткцяъц баэнщаусдцэр";
-        cipherText[6] = "Аээпзуьчу юэъкцэробуън";
-        cipherText[7] = "Эъъмерщфр ыъчзуънлюрчк";
-        cipherText[8] = "Ъччйвнцсн шчферчкиынфз";
-        cipherText[9] = "Фссдьзрлз тсояксегхзов";
-    }
     public void RightUserText()
     {
         if (currentText < 18)
@@ -73,41 +47,72 @@ public class CaesarGameScript : MonoBehaviour
         }
 
     }
-     public void LeftUserText()
+    public void LeftUserText()
     {
-        if(currentText > 1)
+        if (currentText > 1)
         {
             userText.text = cipherText[currentText--];
         }
+    } 
+
+    public void GameWin()
+    {
+        tipsCorrectly.SetActive(false);
+
+        levelSyntasis.GameLevelIncrease();
+        levelSyntasis.ActivateGameLevel();
     }
 
-    public void CheckAnswer()
+    void GameLose()
     {
-        if (userText.text == "Сообщение пользователя")
+        tipsUncorrectly.SetActive(false);
+    }
+
+    public void AttackRightButton()
+    {
+        if (userCurrentText == "Cлабость к атакам справа")
         {
+            buttonInteractable.interactable = false;
+
             tipsCorrectly.SetActive(true);
             Invoke("GameWin", 2f);
         }
+
         else
         {
             tipsUncorrectly.SetActive(true);
             Invoke("GameLose", 2f);
         }
     }
-
-    public void GameWin()
+    public void AttackCenterButton()
     {
-        tipsCorrectly.SetActive(false);
-        canvasSyntesisGame.SetActive(false);
-        chooseSpells.SetActive(true);
-        BeforeDialogueObject.SetActive(false);
-        AfterDialogueObject.SetActive(true);
+        if (userCurrentText == "Cлабость к атакам по центру")
+        {
+            buttonInteractable.interactable = false;
+            tipsCorrectly.SetActive(true);
+            Invoke("GameWin", 2f);
+        }
+
+        else
+        {
+            tipsUncorrectly.SetActive(true);
+            Invoke("GameLose", 2f);
+        }
     }
-
-    void GameLose()
+    public void AttackLeftButton()
     {
-        tipsUncorrectly.SetActive(false);
-        BeforeDialogueObject.SetActive(false);
-        AfterDialogueObject.SetActive(true);
+        if (userCurrentText == "Cлабость к атакам слева")
+        {
+            buttonInteractable.interactable = false;
+
+            tipsCorrectly.SetActive(true);
+            Invoke("GameWin", 2f);
+        }
+
+        else
+        {
+            tipsUncorrectly.SetActive(true);
+            Invoke("GameLose", 2f);
+        }
     }
 }

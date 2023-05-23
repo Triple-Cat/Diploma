@@ -35,7 +35,6 @@ public class OverlapCyclic : MonoBehaviour
     {
         var uIItem = collider2D.gameObject.GetComponent<UIItem>();
         currentElement = uIItem;
-        Debug.Log(currentElement);
         if (collider2D.gameObject.name == barTag)
         {
             currentCountBar++;
