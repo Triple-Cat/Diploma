@@ -7,6 +7,7 @@ public class DialogueResponseEvents : MonoBehaviour
     [SerializeField] private ResponseEvent[] events;
     [SerializeField] private GameObject MiniGame;
     [SerializeField] private GameObject CanvasControl;
+    [SerializeField] private GameObject ImageForMiniGame;
 
     public DialogueObject DialogueObject => dialogueObject;
 
@@ -48,5 +49,11 @@ public class DialogueResponseEvents : MonoBehaviour
     {
         this.CanvasControl = gameObject;
         gameObject.SetActive(false);
+    }
+    
+    public void ImageActivator(GameObject gameObject)
+    {
+        this.ImageForMiniGame = gameObject;
+        gameObject.SetActive(true);
     }
 }

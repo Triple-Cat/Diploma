@@ -17,6 +17,6 @@ MonoBehaviour:
     \u0438\u0433\u0440\u0443?"
   responses:
   - responseText: "\u0414\u0430"
-    dialogueObject: {fileID: 11400000, guid: 2d7d463cd673d9f4784f8fa523dc9266, type: 2}
+    dialogueObject: {fileID: 0}
   - responseText: "\u041D\u0435\u0442"
-    dialogueObject: {fileID: 11400000, guid: f8975ebab99b5f04f9c5cd95cf1a0df9, type: 2}
+    dialogueObject: {fileID: 0}

@@ -8,6 +8,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private GameObject CanvasForControl;
     [SerializeField] private GameObject SkipButton;
+    [SerializeField] private GameObject ImageForMiniGame;
 
     public bool isOpen { get; private set; }
     public bool isPressed = false;
@@ -85,6 +86,8 @@ public class DialogueUI : MonoBehaviour
         SkipButton.SetActive(false);
         textlabel.text = string.Empty;
         CanvasForControl.SetActive(true);
+        ImageForMiniGame.SetActive(false);
+
     }
     public void PressTheButton()
     {
