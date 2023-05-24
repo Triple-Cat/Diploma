@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class OverlapCyclic : MonoBehaviour
 {
+    [SerializeField] LevelSyntasis levelSyntasis;
 
     [SerializeField] GameObject tipsUncorrectly;
     [SerializeField] GameObject tipsCorrectly;
-    [SerializeField] GameObject canvasMiniGame;
-    [SerializeField] GameObject canvasControl;
-    [SerializeField] GameObject BeforeDialogueObject;
-    [SerializeField] GameObject AfterDialogueObject;
-
 
     private UIItem currentElement;
     [SerializeField] string barTag;
@@ -19,17 +15,6 @@ public class OverlapCyclic : MonoBehaviour
 
     public int currentCountBar;
 
-    void Update()
-    {
-        if (canvasMiniGame == true)
-        {
-            canvasControl.SetActive(false);
-        }
-        else
-        {
-            canvasControl.SetActive(true);
-        }
-    }
 
     void OnTriggerEnter2D(Collider2D collider2D)
     {
@@ -54,6 +39,8 @@ public class OverlapCyclic : MonoBehaviour
         {
             tipsCorrectly.SetActive(true);
             Invoke("InvTipsCorrectly", 2f);
+            levelSyntasis.GameLevelIncrease();
+            levelSyntasis.ActivateGameLevel();
         }
         else
         {
@@ -69,10 +56,6 @@ public class OverlapCyclic : MonoBehaviour
     private void InvTipsCorrectly()
     {
         tipsCorrectly.SetActive(false);
-        canvasMiniGame.SetActive(false);
-        canvasControl.SetActive(true);
-        BeforeDialogueObject.SetActive(false);
-        AfterDialogueObject.SetActive(true);
     }
 
 }

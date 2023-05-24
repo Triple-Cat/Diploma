@@ -19,7 +19,6 @@ public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
 
         InitPosition = transform.position;
         InitParent = transform.parent;
-        Debug.Log(InitParent);
 
         _canvasGroup = GetComponent<CanvasGroup>();
         m_RectTransform = GetComponent<RectTransform>();

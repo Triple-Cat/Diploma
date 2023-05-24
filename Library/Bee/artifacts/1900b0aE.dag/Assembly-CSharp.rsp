@@ -388,15 +388,15 @@
 "Assets/Scripts/Player/Spells/SynthesisofPotions.cs"
 "Assets/Scripts/UI/DeactiveCanvas.cs"
 "Assets/Scripts/UI/DoroshenkoGame/CaesarGameScript.cs"
+"Assets/Scripts/UI/LevelSyntasis.cs"
 "Assets/Scripts/UI/MatgorinGame/Checker.cs"
 "Assets/Scripts/UI/MatgorinGame/CheckUIElementOverlap.cs"
 "Assets/Scripts/UI/SpellsCanvas.cs"
-"Assets/Scripts/UI/TrubchikGame/CheckerCyclic.cs"
 "Assets/Scripts/UI/TrubchikGame/OverlapCyclic.cs"
 "Assets/Scripts/UI/UIItem.cs"
 "Assets/Scripts/UI/UISlot.cs"
+"Assets/Scripts/UI/UITips.cs"
 "Assets/Scripts/UI/YashinaGame/ColorButton.cs"
-"Assets/Scripts/UI/YashinaGame/LevelSyntasis.cs"
 "Assets/Scripts/UI/YashinaGame/MoveColorButton.cs"
 -langversion:9.0
 

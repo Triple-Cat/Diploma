@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 29835
+  controlID: 127
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 29789
+  controlID: 128
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_SimulatorState:
     controlPanelVisible: 0
-    controlPanelWidth: NaN
+    controlPanelWidth: 0
     controlPanelFoldoutKeys:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
     controlPanelFoldoutValues: 00
@@ -341,21 +341,21 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 999}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 623cfeff5850feff7875feffec75fefff075fefff475fefff279feff667afeff6a7afeff6e7afeffda7dfeff4e7efeff527efeff567efeff08eefeff0ceefefff8f3fefffcf3fefffcf8feff00f9feff16f9feff1af9feff8afefeffce00ffff0a8effffa8ddffffbcf7ffffeef7ffff02f8ffff12fbffffde5c0000286000004664000010650000ce670000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 26600000
+      m_LastClickedID: 24614
+      m_ExpandedIDs: 60a2fcff72a6ffff6ec5ffff42d1ffffdcddffff16fbffff5664000028650000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: DoroshenkoAfter
-        m_OriginalName: DoroshenkoAfter
+        m_Name: LeftButton
+        m_OriginalName: LeftButton
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 24006
+        m_UserData: 861794
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -626,9 +626,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -68.767746, y: 8.056054, z: 3.7971048}
+    m_Target: {x: 1480, y: 720, z: 0}
     speed: 2
-    m_Value: {x: -68.767746, y: 8.056054, z: 3.7971048}
+    m_Value: {x: 1480, y: 719.99994, z: -0.0000019479048}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -675,17 +675,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0378346, y: -0.017129904, z: -0.000098481105, w: -1.0000277}
+    m_Target: {x: 0.11117766, y: 0.010259528, z: -0.000018729335, w: 0.9946478}
     speed: 2
-    m_Value: {x: -0.037800964, y: -0.017114675, z: -0.00009839355, w: -0.99913865}
+    m_Value: {x: 0.111078285, y: 0.010250357, z: -0.000018712593, w: 0.99375874}
   m_Size:
-    m_Target: 12.265382
+    m_Target: 1161.3625
     speed: 2
-    m_Value: 12.265382
+    m_Value: 1111.3517
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.0249
     m_SpeedNormalized: 0.51
@@ -747,22 +747,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/UI/TrubchikGame
+    - Assets/Scripts/UI
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts/UI/TrubchikGame
+  - Assets/Scripts/UI
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\Diplom\Diploma
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 122}
-    m_SelectedIDs: b2760000
-    m_LastClickedID: 30386
-    m_ExpandedIDs: 000000008c7600008e76000090760000927600009476000000ca9a3b
+    scrollPos: {x: 0, y: 126}
+    m_SelectedIDs: 5e810000
+    m_LastClickedID: 33118
+    m_ExpandedIDs: 0000000056810000588100005a8100005c8100005e81000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -790,7 +790,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c7600008e76000090760000927600009476000000ca9a3b
+    m_ExpandedIDs: 0000000056810000588100005a8100005c8100005e810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -842,7 +842,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 20}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 178

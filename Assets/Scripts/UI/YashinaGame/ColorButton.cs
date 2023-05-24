@@ -10,17 +10,15 @@ public class ColorButton : MonoBehaviour
 
     [SerializeField] int amountColorButton;
 
-
     [SerializeField] public GameObject chooseSpells;
 
     [SerializeField] GameObject tipsCorrectly;
     [SerializeField] GameObject tipsUncorrectly;
 
-    [SerializeReference] GameObject canvasSyntesisGame;
-
     [SerializeField] private int correctlyAnswerCount;
     [SerializeField] private int amountNededCorrectlyAnswer;
 
+    [SerializeField] Button buttonInteractable;
 
     public void CheckAnswer()
     {
@@ -29,12 +27,14 @@ public class ColorButton : MonoBehaviour
 
         if (correctlyAnswerCount == amountNededCorrectlyAnswer)
         {
+            buttonInteractable.interactable = false;
             levelSyntasis.GameLevelIncrease();
             tipsCorrectly.SetActive(true);
             Invoke("GameWin", 2f);
         }
         else
         {
+            buttonInteractable.interactable = false;
             correctlyAnswerCount = 0;
             tipsUncorrectly.SetActive(true);
             Invoke("GameLose", 2f);
@@ -44,6 +44,7 @@ public class ColorButton : MonoBehaviour
     void GameWin()
     {
         tipsCorrectly.SetActive(false);
+        buttonInteractable.interactable = true;
         levelSyntasis.ActivateGameLevel();
     }
 
@@ -51,6 +52,7 @@ public class ColorButton : MonoBehaviour
     {
         UnPressedButton();
         MoveButton();
+        buttonInteractable.interactable = true;
         tipsUncorrectly.SetActive(false);
     }
 

@@ -9,22 +9,6 @@ public class Checker : MonoBehaviour
 
     [SerializeField] GameObject tipsUncorrectly;
     [SerializeField] GameObject tipsCorrectly;
-    [SerializeField] GameObject canvasMiniGame;
-    [SerializeField] GameObject canvasControl;
-    [SerializeField] GameObject BeforeDialogueObject;
-    [SerializeField] GameObject AfterDialogueObject;
-
-    void Update()
-    {
-        if(canvasMiniGame == true)
-        {
-            canvasControl.SetActive(false);
-        }
-        else
-        {
-            canvasControl.SetActive(true);
-        }
-    }
 
     public void Result()
     {
@@ -47,9 +31,5 @@ public class Checker : MonoBehaviour
     private void InvTipsCorrectly()
     {
         tipsCorrectly.SetActive(false);
-        canvasMiniGame.SetActive(false);
-        canvasControl.SetActive(true);
-        BeforeDialogueObject.SetActive(false);
-        AfterDialogueObject.SetActive(true);
     }
 }
