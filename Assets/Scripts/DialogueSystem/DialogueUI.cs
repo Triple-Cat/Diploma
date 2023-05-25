@@ -87,7 +87,6 @@ public class DialogueUI : MonoBehaviour
         textlabel.text = string.Empty;
         CanvasForControl.SetActive(true);
         ImageForMiniGame.SetActive(false);
-
     }
     public void PressTheButton()
     {

@@ -33614,7 +33614,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rig: {fileID: 1318139557}
   mainCamera: {fileID: 963194228}
-  jumpForce: 3.5
   walkingSpeed: 9
   runningSpeed: 18
   currentSpeed: 0
@@ -46746,6 +46745,7 @@ MonoBehaviour:
   - {fileID: 171154837}
   - {fileID: 1248735045}
   - {fileID: 1596799311}
+  canvasForControl: {fileID: 559074600}
   allCanvas: 4
   currentCanvas: 0
 --- !u!4 &1798314192
@@ -56190,6 +56190,10 @@ PrefabInstance:
       propertyPath: canvasMiniGame
       value: 
       objectReference: {fileID: 171154837}
+    - target: {fileID: 6153015280254985174, guid: 837ec910b45292844955b086b296ba1a, type: 3}
+      propertyPath: AfterDialogueObject
+      value: 
+      objectReference: {fileID: 368957323}
     - target: {fileID: 6153015280254985174, guid: 837ec910b45292844955b086b296ba1a, type: 3}
       propertyPath: BeforeDialogueObject
       value: 

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\UI\SpellsCanvas.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\Spells.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueActivator.cs" />
+    <Compile Include="Assets\Scripts\UI\ImageDisabler.cs" />
     <Compile Include="Assets\Scripts\UI\UISlot.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueObject.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\CyclicSpell.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueUI.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\CaesarsCipher.cs" />
     <Compile Include="Assets\Resourses\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\ReplaceCharacter.cs" />
     <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Scripts\Player\Control\CustomCharacterController.cs" />
     <Compile Include="Assets\Resourses\Joystick Pack\Scripts\Base\Joystick.cs" />
