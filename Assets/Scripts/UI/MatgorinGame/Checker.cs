@@ -26,6 +26,7 @@ public class Checker : MonoBehaviour
         {
             tipsUncorrectly.SetActive(true);
             Invoke("InvTipsUncorrectly", 2f);
+            sumAnswer = 0;
         }
     }
 
