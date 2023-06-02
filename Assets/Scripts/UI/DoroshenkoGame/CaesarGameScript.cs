@@ -21,6 +21,9 @@ public class CaesarGameScript : MonoBehaviour
     [SerializeField] GameObject rightButton;
 
     [SerializeField] Button buttonInteractable;
+    [SerializeField] Button buttonInteractable1;
+    [SerializeField] Button buttonInteractable2;
+
 
 
     void Awake()
@@ -67,13 +70,25 @@ public class CaesarGameScript : MonoBehaviour
     {
         tipsUncorrectly.SetActive(false);
     }
+    public void PressedButton()
+    {
+        buttonInteractable.interactable = false;
+        buttonInteractable1.interactable = false;
+        buttonInteractable2.interactable = false;
+        Invoke("UnPressedButton", 3f);
+
+    }
+    public void UnPressedButton()
+    {
+        buttonInteractable.interactable = true;
+        buttonInteractable1.interactable = true;
+        buttonInteractable2.interactable = true;
+    }
 
     public void AttackRightButton()
     {
-        if (userCurrentText == "Cлабость к атакам справа")
+        if (userCurrentText == "Атака справа")
         {
-            buttonInteractable.interactable = false;
-
             tipsCorrectly.SetActive(true);
             Invoke("GameWin", 2f);
         }
@@ -86,9 +101,8 @@ public class CaesarGameScript : MonoBehaviour
     }
     public void AttackCenterButton()
     {
-        if (userCurrentText == "Cлабость к атакам по центру")
+        if (userCurrentText == "Атака по центру")
         {
-            buttonInteractable.interactable = false;
             tipsCorrectly.SetActive(true);
             Invoke("GameWin", 2f);
         }
@@ -101,10 +115,8 @@ public class CaesarGameScript : MonoBehaviour
     }
     public void AttackLeftButton()
     {
-        if (userCurrentText == "Cлабость к атакам слева")
+        if (userCurrentText == "Атака слева")
         {
-            buttonInteractable.interactable = false;
-
             tipsCorrectly.SetActive(true);
             Invoke("GameWin", 2f);
         }
