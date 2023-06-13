@@ -9,7 +9,6 @@ public class CustomCharacterController : MonoBehaviour
     public Rigidbody rig; // Ссылка на ригидбоди
     public Transform mainCamera; // Ссылка на камеру
     public float walkingSpeed = 2f; // Скорость передвижения
-    public float runningSpeed = 6f; // Скорость бега
     public float currentSpeed; // Текущая скорость
     private float animationInterpolation = 1f;
     public FixedJoystick fixJoy; // Ссылка на джостик
@@ -21,17 +20,6 @@ public class CustomCharacterController : MonoBehaviour
     [SerializeField] private DialogueUI dialogueUI;
     public DialogueUI DialogueUI => dialogueUI;
     public IInteractable Interactable { get; set; }
-
-
-    void Run()
-    {
-        animationInterpolation = Mathf.Lerp(animationInterpolation, 1.5f, Time.deltaTime * 3);
-   
-        moveVector.x = horizontal * runningSpeed; 
-        moveVector.y = vertical * runningSpeed; 
-
-        currentSpeed = Mathf.Lerp(currentSpeed, runningSpeed, Time.deltaTime * 3);
-    }
 
     void Walk()
     {
@@ -49,22 +37,7 @@ public class CustomCharacterController : MonoBehaviour
         horizontal = Mathf.Lerp(horizontal, fixJoy.Horizontal, Time.deltaTime * lerpMultiplier);
         vertical = Mathf.Lerp(vertical, fixJoy.Vertical, Time.deltaTime * lerpMultiplier);
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, mainCamera.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
-
-        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.LeftShift))
-        {
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
-            {
-                Walk();
-            }
-            else
-            {
-                Run();
-            }
-        }
-        else
-        {
-            Walk();
-        }
+        Walk();
 
         if (dialogueUI.isOpen) return;
      

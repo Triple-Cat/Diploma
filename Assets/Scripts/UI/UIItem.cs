@@ -28,7 +28,8 @@ public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
     public void OnBeginDrag(PointerEventData eventData)
     {
         var slotTransform = m_RectTransform.parent;
-        slotTransform.SetAsLastSibling();
+        var parentForLayout = slotTransform.parent;
+        parentForLayout.SetAsLastSibling();
         _canvasGroup.blocksRaycasts = false;
     }
 
